@@ -1,18 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T11:56:42.622Z" agent="5.0 (Windows)" etag="nIM7aDe5vlXCijHkeCKJ" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-31T12:01:06.898Z" agent="5.0 (Windows)" etag="bISk0oNzZzp1wt31wiJt" version="14.1.2" type="github">
   <diagram id="wWmaAe6ElsWB-zUafKZV" name="Page-1">
     <mxGraphModel dx="865" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KUawCyeF-_NzYs4Vc8_j-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="112.5" y="250" width="135" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="KUawCyeF-_NzYs4Vc8_j-2" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="KUawCyeF-_NzYs4Vc8_j-3">
-          <mxGeometry width="135" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="KUawCyeF-_NzYs4Vc8_j-1" value="Submits" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="KUawCyeF-_NzYs4Vc8_j-3">
-          <mxGeometry x="7.5" y="5" width="120" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="KUawCyeF-_NzYs4Vc8_j-6" value="Author" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="130" y="120" width="100" height="40" as="geometry" />
         </mxCell>
@@ -42,6 +33,18 @@
             <mxPoint x="320" y="280" as="sourcePoint" />
             <mxPoint x="420" y="180" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KUawCyeF-_NzYs4Vc8_j-14" value="Submit" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="135" y="300" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KUawCyeF-_NzYs4Vc8_j-16" value="" style="fontSize=12;html=1;endArrow=ERone;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KUawCyeF-_NzYs4Vc8_j-6" target="KUawCyeF-_NzYs4Vc8_j-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUawCyeF-_NzYs4Vc8_j-17" value="Paper" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
