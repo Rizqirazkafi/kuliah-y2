@@ -21,7 +21,6 @@ public class App {
         banner();
         System.out.println("==[ MENU");
         System.out.println("[1] Laptop");
-        System.out.println("[2] Karyawan");
         System.out.println("[0] Keluar");
         Integer selectedMenu = input.getInt("Pilih Menu : ");
         switch (selectedMenu) {
