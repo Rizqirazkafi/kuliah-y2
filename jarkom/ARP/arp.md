@@ -13,5 +13,5 @@ dalam melakukan resolusi alamat IP ke dalam alamat Media Access Cotrol (MAC Addr
 <ul>
 <li><p>Jika suatu host ingin berkomunikasi ke IP host tertentu, 
 computer sumber akan melakukan pengecekan nomor MAC dari computer</p></li>
-<li><<p>Jika suatu host ingin berkomunikasi ke IP host tertentu,</p></li>
+<li><p>Jika suatu host ingin berkomunikasi ke IP host tertentu,</p></li>
 </ul> 
