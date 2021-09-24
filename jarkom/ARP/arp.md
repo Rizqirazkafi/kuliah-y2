@@ -4,7 +4,7 @@
 ## M. Rizqi R 20051204034 TIB
 
 ### Definisi
-<p>Sebuah protikil dalam TCP/IP Protocol Suite yang bertanggung jawab 
+<p>Sebuah protokol dalam TCP/IP Protocol Suite yang bertanggung jawab 
 dalam melakukan resolusi alamat IP ke dalam alamat Media Access Cotrol (MAC Addres)</p>
 
 <p>Protokol ini bertugas untuk menemukan MAC Address suatu host dengan alamat IP tertentu</p>
