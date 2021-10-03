@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-10-03T03:31:10.680Z" agent="5.0 (Windows)" version="15.3.3" etag="sZ83oJhl9so3rH1BR088" type="github"><diagram id="mkoTZi3ld0enfujxHd4W">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-03T03:33:15.133Z" agent="5.0 (Windows)" etag="W93o1XjblWrF819IgvQz" version="15.3.3" type="github">
+  <diagram id="mkoTZi3ld0enfujxHd4W" name="Page-1">
+    <mxGraphModel dx="910" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S8SpYALa1lv_Gnronn4H-1" value="&lt;u&gt;NIP&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-2" value="NmKaryawan" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-3" value="&lt;u&gt;ID_Kasir&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-4" value="NmKasir" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-5" value="NIP" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-6" value="ID_Kasir" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
