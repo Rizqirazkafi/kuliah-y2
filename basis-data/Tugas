@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-10-03T03:35:10.503Z" agent="5.0 (Windows)" etag="3hNAPNkNygQYX79PS-GT" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-03T03:38:16.385Z" agent="5.0 (Windows)" etag="qwwaMltiSDifdFlRPUbp" version="15.3.3" type="github">
   <diagram id="mkoTZi3ld0enfujxHd4W" name="Page-1">
     <mxGraphModel dx="910" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S8SpYALa1lv_Gnronn4H-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=none;" edge="1" parent="1" source="S8SpYALa1lv_Gnronn4H-1" target="S8SpYALa1lv_Gnronn4H-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="S8SpYALa1lv_Gnronn4H-1" value="&lt;u&gt;NIP&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="40" width="100" height="40" as="geometry" />
         </mxCell>
@@ -51,6 +54,18 @@
         </mxCell>
         <mxCell id="S8SpYALa1lv_Gnronn4H-16" value="TunjanganKsht" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-17" value="NIP" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-18" value="id_potongan" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-19" value="Pajak" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SpYALa1lv_Gnronn4H-20" value="Koperasi" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
