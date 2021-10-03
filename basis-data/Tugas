@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-10-03T03:43:47.810Z" agent="5.0 (Windows)" etag="GhczV9lgwjrr2Z92RjHN" version="15.3.3" type="github">
-  <diagram id="mkoTZi3ld0enfujxHd4W" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-10-03T03:47:56.207Z" agent="5.0 (Windows)" etag="W5yyRZc-c0J4LodbA97f" version="15.3.3" type="github" pages="2">
+  <diagram id="mkoTZi3ld0enfujxHd4W" name="Karyawan">
     <mxGraphModel dx="1071" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -115,6 +115,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_D2B5HILT5vPtulau1-0" name="MHS">
+    <mxGraphModel dx="910" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="QAhKSpWNiCO2eQ-DAWfr-0" />
+        <mxCell id="QAhKSpWNiCO2eQ-DAWfr-1" parent="QAhKSpWNiCO2eQ-DAWfr-0" />
       </root>
     </mxGraphModel>
   </diagram>
