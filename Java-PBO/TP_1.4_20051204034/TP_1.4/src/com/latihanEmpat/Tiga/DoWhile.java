@@ -4,7 +4,7 @@ public class DoWhile {
         int a=1;
 
         do {
-            System.out.println("Aji "+a);
+            System.out.println("Rizqi "+a);
             a++;
         }while (a<=100);
     }
