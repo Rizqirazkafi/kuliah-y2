@@ -1,3 +1,5 @@
+package Latihan;
+
 public class BukuAlamat {
     private String nama;
     private String alamat;

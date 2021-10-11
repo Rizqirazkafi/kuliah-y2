@@ -1,3 +1,5 @@
+package Latihan;
+
 public class StudentRecordExample {
     public static void main(String[] args){
         StudentRecord annaRecord = new StudentRecord();

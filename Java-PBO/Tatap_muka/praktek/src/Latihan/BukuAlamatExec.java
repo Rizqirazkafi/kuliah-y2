@@ -1,3 +1,5 @@
+package Latihan;
+
 public class BukuAlamatExec {
 
     private static BukuAlamatDB alamatDB = new BukuAlamatDB();

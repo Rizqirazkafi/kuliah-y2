@@ -1,3 +1,5 @@
+package Latihan;
+
 public class StudentRecord {
     private String name;
     private String addres;
