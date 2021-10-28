@@ -55,6 +55,7 @@ public class Utama {
           edi.entryTataUsaha();
           edi.tampilTataUsaha();
           komli.entryKomLi();
+          komli.tampilKomLi(komli.getKdKomLi(), komli.getNamaKaKomLi(),komli.getNamaKomLi());
           putri.entrySiswa();
           putra.entrySiswa();
           
