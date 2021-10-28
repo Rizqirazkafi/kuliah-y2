@@ -33,7 +33,7 @@ public class MataPelajaran {
             System.out.print("Kelas Mapel           : ");
             setKelas(dataIn.readLine());
             System.out.print("Guru Pengampu Mapel   : ");
-            setKelas(dataIn.readLine());
+            setGuruPengampu(dataIn.readLine());
         }catch(IOException e){
             System.out.println("Error in Entry Mata Pelajaran");
         }
