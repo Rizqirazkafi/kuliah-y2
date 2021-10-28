@@ -1,4 +1,4 @@
-from numpy import array
+from numpy import array,zeros
 
 A = array([
     [1,1,0,3,4],
@@ -6,12 +6,27 @@ A = array([
     [3,-1,-1,2,-3],
     [-1,2,3,-1,4]
     ])
-#print(A)
-int i
-int b
-for i in range(3):
-    m=A[i][0]/A[0][0]
-    for b in range(4):
-        A[i][b]=A[i][b]-m*A[0][b]
-print(A)
 
+# Proses Triangularisasi
+# menghilangkan x1 dari p2 dst
+m=A[1][0]/A[0][0]
+A[1][0]=A[1][0]-m*A[0][0]
+A[1][1]=A[1][1]-m*A[0][1]
+A[1][2]=A[1][2]-m*A[0][2]
+A[1][3]=A[1][3]-m*A[0][3]
+A[1][4]=A[1][4]-m*A[0][4]
+
+m=A[2][0]/A[0][0]
+A[2][0]=A[2][0]-m*A[0][0]
+A[2][1]=A[2][1]-m*A[0][1]
+A[2][2]=A[2][2]-m*A[0][2]
+A[2][3]=A[2][3]-m*A[0][3]
+A[2][4]=A[2][4]-m*A[0][4]
+
+m=A[3][0]/A[0][0]
+A[3][0]=A[3][0]-m*A[0][0]
+A[3][1]=A[3][1]-m*A[0][1]
+A[3][2]=A[3][2]-m*A[0][2]
+A[3][3]=A[3][3]-m*A[0][3]
+A[3][4]=A[3][4]-m*A[0][4]
+print(A)

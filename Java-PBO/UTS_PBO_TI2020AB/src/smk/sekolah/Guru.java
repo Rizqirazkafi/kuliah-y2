@@ -9,40 +9,50 @@ package smk.sekolah;
  *
  * @author bamba
  */
-public class Guru extends Pegawai{
+public class Guru extends Pegawai {
     private String ijazahTerakhir;
     private String pengampuMapel;
     private String bidangKomp;
-   
-    public Guru(){
+
+    public Guru() {
         System.out.println("Dalam Constructor Dosen");
     }
-    
-    public Guru(String pengampuMapel, String bidangKomp){
-        this.pengampuMapel = pengampuMapel;
-        this.bidangKomp = bidangKomp;
+
+    public Guru(String nama, String nip) {
+        super(nama, nip);
     }
-    
-    public Guru(String ijazah, String ampuMapel, String bidangKomp){
+
+ 
+
+    public Guru(String ijazah, String ampuMapel, String bidangKomp) {
         ijazahTerakhir = ijazah;
         pengampuMapel = ampuMapel;
         this.bidangKomp = bidangKomp;
     }
-    
-    public void entryGuru(){
-        
-    }
-    
-    public void tampilGuru(String ijazahTerakhir, String pengampuMapel, String bidangKomp){
-        Guru guru = new Guru();
-        System.out.println("Nama Guru               : "+guru.getNama());
-        System.out.println("NIP Guru                : "+guru.getNip());
-        System.out.println("Pengampu Mata Pelajaran : "+getIjazahTerakhir());           
-        System.out.println("Pengampu Mata Pelajaran : "+getPengampuMapel());
-        System.out.println("Bidang Kompetensi       : "+getBidangKomp());
+
+    public void entryGuru() {
+        try {
+            System.out.println("====================");
+            System.out.print("Masukkan Nama Guru: ");
+            setNama(getDataIn().readLine());
+            System.out.print("Masukkan NIP Guru: ");
+            setNip(getDataIn().readLine());
+            System.out.print("Masukkan Ijazah Terakhir: ");
+            setIjazahTerakhir(getDataIn().readLine());
+        } catch (Exception e) {
+            System.out.println("error");
+        }
     }
 
-    
+    public void tampilGuru(String ijazahTerakhir, String pengampuMapel, String bidangKomp, String nama, String nip) {
+        
+        System.out.println("Nama Guru               : " + getNama());
+        System.out.println("NIP Guru                : " + getNip());
+        System.out.println("Ijazah                  : " + getIjazahTerakhir());
+        System.out.println("Pengampu Mata Pelajaran : " + getPengampuMapel());
+        System.out.println("Bidang Kompetensi       : " + getBidangKomp());
+    }
+
     /**
      * @return the bidangKomp
      */
@@ -84,5 +94,5 @@ public class Guru extends Pegawai{
     public void setPengampuMapel(String pengampuMapel) {
         this.pengampuMapel = pengampuMapel;
     }
-    
+
 }

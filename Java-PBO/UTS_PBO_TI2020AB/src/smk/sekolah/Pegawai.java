@@ -124,6 +124,10 @@ public class Pegawai {
         System.out.println("Ini Constructor Pegawai");
     }   
     
+    public Pegawai(String nip, String nama){
+        this.nama = nama;
+        this.nip = nip;
+    }
 
     /**     
      * @return the nama
