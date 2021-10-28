@@ -39,6 +39,10 @@ public class Guru extends Pegawai {
             setNip(getDataIn().readLine());
             System.out.print("Masukkan Ijazah Terakhir: ");
             setIjazahTerakhir(getDataIn().readLine());
+            System.out.print("Masukkan Mapel Ampuan : ");
+            setPengampuMapel(getDataIn().readLine());
+            System.out.print("Masukkan Bidang Kompetensi: ");
+            setBidangKomp(getDataIn().readLine());
         } catch (Exception e) {
             System.out.println("error");
         }

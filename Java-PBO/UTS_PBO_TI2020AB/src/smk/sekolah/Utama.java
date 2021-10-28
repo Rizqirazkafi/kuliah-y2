@@ -42,17 +42,21 @@ public class Utama {
                   smkn1sby.getNamaWaka3(), smkn1sby.getNamaWaka4());
           
           agus.entryPegawai();
-          agus.tampilGuru(agus.getIjazahTerakhir(), agus.getPengampuMapel(), agus.getBidangKomp(), agus.getNama(), agus.getNip());
           agus.entryGuru();
+          agus.tampilGuru(agus.getIjazahTerakhir(), agus.getPengampuMapel(), agus.getBidangKomp(), agus.getNama(), agus.getNip());
           ida.entryGuruTT();
           budi.entryLaboran();
           budi.tampilLaboran();
+          pustakawan.entryPustakawan();
+          pustakawan.tampilPustakawan();
           mapel.entryMataPelajaran();
           mapel.tampilMataPelajaran();
           progli.entryProgLi();
-          progli.tampilProgLi(progli.getNamaProgLi(), progli.getNmSingkatan(), progli.getKodeProgLi(), progli.getJumlahKomLi(), progli.getJumlahGuru(), progli.getKdKomLi1(),progli.getKdKomLi2(),progli.getKdKomLi3()); 
+          edi.entryTataUsaha();
+          edi.tampilTataUsaha();
           komli.entryKomLi();
           putri.entrySiswa();
+          putra.entrySiswa();
           
     } 
 }

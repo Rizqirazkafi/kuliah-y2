@@ -5,6 +5,9 @@
  */
 package smk.sekolah;
 
+import java.io.IOError;
+import java.io.IOException;
+
 /**
  *
  * @author bamba
@@ -18,11 +21,16 @@ public class TataUsaha extends Pegawai{
     
     
     public void entryTataUsaha(){
-        
+        try{
+            System.out.print("Masukkan Bagian : ");
+            setBagian(getDataIn().readLine());
+        }catch(IOException e){
+            System.out.println("Error");
+        }
     }
     
     public void tampilTataUsaha(){
-        
+        System.out.println("Bagian : " + getBagian());    
     }
 
     /**
