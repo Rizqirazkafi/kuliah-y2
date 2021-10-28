@@ -5,6 +5,8 @@
  */
 package smk.sekolah;
 
+import java.io.IOException;
+
 /**
  *
  * @author bamba
@@ -17,11 +19,20 @@ public class Laboran extends Pegawai{
     }
     
     public void entryLaboran(){
-        
+        try{
+            System.out.print("Nama  : ");
+            setNama(getDataIn().readLine());
+            System.out.print("NIP   :");
+            setNip(getDataIn().readLine());
+
+        }catch(IOException e){
+            System.out.println("Error in Entery laboran"); 
+        }
     }
     
     public void tampilLaboran(){
-        
+        System.out.println("Nama pegawai    : " + getNama()); 
+        System.out.println("NIP  pegawai    : " + getNip()); 
     }
 
     /**

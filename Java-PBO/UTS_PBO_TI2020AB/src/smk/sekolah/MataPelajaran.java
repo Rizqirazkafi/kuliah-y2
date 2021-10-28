@@ -5,6 +5,11 @@
  */
 package smk.sekolah;
 
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
+import java.io.BufferedInputStream;
+
 /**
  *
  * @author bamba
@@ -15,12 +20,31 @@ public class MataPelajaran {
     private int sks;
     private String kelas;
     private String guruPengampu;
+    private BufferedReader dataIn = new BufferedReader(new InputStreamReader(System.in));
      
     public void entryMataPelajaran(){
-        
+        try{
+            System.out.print("Kode Mapel            : ");
+            setKdMapel(dataIn.readLine());
+            System.out.print("Nama Mapel            : ");
+            setNamaMMapel(dataIn.readLine());
+            System.out.print("SKS  Mapel            : ");
+            setSks(Integer.parseInt(dataIn.readLine()));
+            System.out.print("Kelas Mapel           : ");
+            setKelas(dataIn.readLine());
+            System.out.print("Guru Pengampu Mapel   : ");
+            setKelas(dataIn.readLine());
+        }catch(IOException e){
+            System.out.println("Error in Entry Mata Pelajaran");
+        }
     }
     
     public void tampilMataPelajaran(){
+            System.out.println("Kode Mapel            : " + getKdMapel());
+            System.out.println("Nama Mapel            : " + getNamaMMapel());
+            System.out.println("SKS  Mapel            : " + getSks());
+            System.out.println("Kelas Mapel           : " + getKelas());
+            System.out.println("Guru Pengampu Mapel   : " + getGuruPengampu());
         
     }
 
