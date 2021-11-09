@@ -1,4 +1,4 @@
-'''python
+''' python
 from pprint import pprint
 from numpy import array, zeros, diag, diagflat, dot
 
