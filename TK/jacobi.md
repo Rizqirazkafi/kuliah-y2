@@ -1,4 +1,4 @@
-''' python
+``` python
 from pprint import pprint
 from numpy import array, zeros, diag, diagflat, dot
 
@@ -26,5 +26,4 @@ sol = jacobi(A,b,N=25,x=guess)
 
 print "A:"
 print(A)
-
-'''
+```
