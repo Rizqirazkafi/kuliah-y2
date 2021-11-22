@@ -25,7 +25,7 @@
 - Mewadahi dalam bidang akademik :
     - Kegiatan belajar
     - pelatihan pelatihan
-## Proker
+## Proker Divisi Akademik UMM
 * Mabar : Main Belajar untuk mahasiswa baru sebagai pengenalan
 * Edutika : Edukasi Informatik 
     - Materi terkait Informatika khususnya pemrograman
