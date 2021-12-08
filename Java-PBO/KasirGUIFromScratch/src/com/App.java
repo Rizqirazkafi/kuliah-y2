@@ -20,6 +20,7 @@ public class App {
         judul.setBackground(Color.GRAY);
         judul.setBounds(0,0,1280,80);
         judul.add(label);
+        // Set menu
         JLabel menuText = new JLabel("Menu");
         menuText.setBounds(20,0,300,20);
         menuText.setFont(new Font("Roboto", Font.PLAIN, 20));
@@ -41,16 +42,33 @@ public class App {
         JButton addBtn = new JButton("Add");
         addBtn.setBounds(550,25,80,40);
         addBtn.setFont(new Font("Roboto", Font.CENTER_BASELINE,25));
+        
+        // Set menu tambahan
         JLabel tambahanTitle = new JLabel("Tambahan");
         tambahanTitle.setBounds(20,70,300,20);
+        tambahanTitle.setFont(new Font("Roboto", Font.PLAIN, 20));
         JComboBox tambahan = new JComboBox<>();
         tambahan.addItem("Nasi - 5k");
         tambahan.addItem("Es teh - 3k");
-        tambahan.setBounds(20,90,300,40);
+        tambahan.setBounds(20,95,300,40);
+        tambahan.setFont(new Font("Roboto", Font.CENTER_BASELINE,30));
+        JButton menuKurangTambahan = new JButton("-");
+        menuKurangTambahan.setFont(new Font("Roboto", Font.CENTER_BASELINE,40));
+        menuKurangTambahan.setBounds(340,95,60,40);
+        JButton menuTambahTambahan = new JButton("+");
+        menuTambahTambahan.setFont(new Font("Roboto", Font.CENTER_BASELINE,40));
+        menuTambahTambahan.setBounds(480,95,60,40);
+        JTextField jumlahMenuTambahan = new JTextField(); 
+        jumlahMenuTambahan.setBounds(410,95,60,40);
+        JButton addBtnTambahan = new JButton("Add");
+        addBtnTambahan.setBounds(550,95,80,40);
+        addBtnTambahan.setFont(new Font("Roboto", Font.CENTER_BASELINE,25));
+        // Text area total pesanan 
         JTextArea pesanan = new JTextArea();
         JScrollPane pesananScroll = new JScrollPane(pesanan);
         pesananScroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-        pesananScroll.setBounds(20,150,610,300);
+        pesananScroll.setBounds(20,150,610,200);
+
         JPanel kiri = new JPanel();
         kiri.setBounds(0,81,640,640);
         kiri.setBackground(Color.RED);
@@ -63,6 +81,10 @@ public class App {
         kiri.add(menuTambah);
         kiri.add(tambahanTitle);
         kiri.add(tambahan);
+        kiri.add(menuKurangTambahan);
+        kiri.add(jumlahMenuTambahan);
+        kiri.add(menuTambahTambahan);
+        kiri.add(addBtnTambahan);
         kiri.add(pesananScroll);
         JPanel kanan = new JPanel();
         kanan.setBounds(640,81,640,640); 
