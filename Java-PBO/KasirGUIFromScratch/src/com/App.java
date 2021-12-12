@@ -17,6 +17,7 @@ public class App extends JFrame implements ActionListener{
     JScrollPane strukOut,pesananScroll;
 
     App() {
+        
         label = new JLabel();
         label.setText("Kasir Warung Makan");
         label.setFont(new Font("Serif", Font.BOLD, 48));
@@ -34,12 +35,9 @@ public class App extends JFrame implements ActionListener{
         menuText = new JLabel("Menu");
         menuText.setBounds(20, 0, 300, 20);
         menuText.setFont(new Font("Serif", Font.PLAIN, 20));
-        menu = new JComboBox<>();
+        String list[] = {"Burger - 10k", "Pizza - 20k", "Spagheti - 10k"};
+        menu = new JComboBox<>(list);
         menu.setFont(new Font("Serif", Font.PLAIN, 30));
-        menu.addItem("Paket 1 - 10k");
-        menu.addItem("Paket 2 - 12k");
-        menu.addItem("Paket 3 - 8k");
-        menu.addItem("Paket 4 - 10k");
         menu.setBounds(20, 25, 300, 40);
         menuKurang = new JButton("-");
         menuKurang.setFont(new Font("Serif", Font.PLAIN, 40));
@@ -167,7 +165,7 @@ public class App extends JFrame implements ActionListener{
     }
     public void actionPerformed(ActionEvent e){
         if(e.getSource()==addBtn){
-
+            System.out.println("selected menu :" + menu.getSelectedItem());
         }
     }
 }

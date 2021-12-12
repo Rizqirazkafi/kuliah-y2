@@ -14,6 +14,7 @@ public class KasirGUI2 extends javax.swing.JFrame {
 	 * Creates new form KasirGUI2
 	 */
 	public KasirGUI2() {
+		if(e.getSource()==)
 		initComponents();
 	}
 
@@ -28,11 +29,11 @@ public class KasirGUI2 extends javax.swing.JFrame {
 
                 jLabel1 = new javax.swing.JLabel();
                 jLabel2 = new javax.swing.JLabel();
-                jComboBox1 = new javax.swing.JComboBox<>();
-                jButton1 = new javax.swing.JButton();
-                jTextField1 = new javax.swing.JTextField();
-                jButton2 = new javax.swing.JButton();
-                jButton3 = new javax.swing.JButton();
+                ComboMenu = new javax.swing.JComboBox<>();
+                Minus = new javax.swing.JButton();
+                JumlahMenu = new javax.swing.JTextField();
+                Plus = new javax.swing.JButton();
+                AddMenu = new javax.swing.JButton();
                 jLabel3 = new javax.swing.JLabel();
                 jLabel4 = new javax.swing.JLabel();
                 jScrollPane3 = new javax.swing.JScrollPane();
@@ -64,30 +65,30 @@ public class KasirGUI2 extends javax.swing.JFrame {
 
                 jLabel2.setText("Menu");
 
-                jComboBox1.setMaximumRowCount(20);
-                jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Paket 1 - 12k", "Paket 2 - 10k", "Paket 3 - 10k", "Paket 4 - 14k" }));
-                jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+                ComboMenu.setMaximumRowCount(20);
+                ComboMenu.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Paket 1 - 12k", "Paket 2 - 10k", "Paket 3 - 10k", "Paket 4 - 14k" }));
+                ComboMenu.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
-                                jComboBox1ActionPerformed(evt);
+                                ComboMenuActionPerformed(evt);
                         }
                 });
 
-                jButton1.setText("-");
+                Minus.setText("-");
 
-                jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-                jTextField1.setText("0");
+                JumlahMenu.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+                JumlahMenu.setText("0");
 
-                jButton2.setText("+");
-                jButton2.addActionListener(new java.awt.event.ActionListener() {
+                Plus.setText("+");
+                Plus.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
-                                jButton2ActionPerformed(evt);
+                                PlusActionPerformed(evt);
                         }
                 });
 
-                jButton3.setText("Add");
-                jButton3.addActionListener(new java.awt.event.ActionListener() {
+                AddMenu.setText("Add");
+                AddMenu.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
-                                jButton3ActionPerformed(evt);
+                                AddMenuActionPerformed(evt);
                         }
                 });
 
@@ -99,7 +100,6 @@ public class KasirGUI2 extends javax.swing.JFrame {
                 jTextArea1.setEditable(false);
                 jTextArea1.setColumns(20);
                 jTextArea1.setRows(5);
-                jTextArea1.setText("Menu Pilihan\tHarga Item\tJumlah\tSub Totall\n1. Paket 1\t12.000\t3\t36.000");
                 jScrollPane3.setViewportView(jTextArea1);
 
                 jTextField2.setEditable(false);
@@ -193,19 +193,19 @@ public class KasirGUI2 extends javax.swing.JFrame {
                                                                                 .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                                                 .addGroup(layout.createSequentialGroup()
                                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                .addComponent(ComboMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                         .addGap(18, 18, 18)
                                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                                                 .addGroup(layout.createSequentialGroup()
-                                                                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                        .addComponent(Minus, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                                        .addComponent(JumlahMenu, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                        .addComponent(Plus, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                                 .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                        .addComponent(jButton3)))
+                                                        .addComponent(AddMenu)))
                                         .addComponent(jLabel4)
                                         .addGroup(layout.createSequentialGroup()
                                                 .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -240,11 +240,11 @@ public class KasirGUI2 extends javax.swing.JFrame {
                                                         .addComponent(jLabel3))
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addComponent(jButton1)
-                                                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addComponent(jButton2)
-                                                        .addComponent(jButton3))
+                                                        .addComponent(ComboMenu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(Minus)
+                                                        .addComponent(JumlahMenu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(Plus)
+                                                        .addComponent(AddMenu))
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                 .addComponent(jLabel4)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -280,13 +280,13 @@ public class KasirGUI2 extends javax.swing.JFrame {
                 pack();
         }// </editor-fold>//GEN-END:initComponents
 
-        private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        private void PlusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PlusActionPerformed
                 // TODO add your handling code here:
-        }//GEN-LAST:event_jButton2ActionPerformed
+        }//GEN-LAST:event_PlusActionPerformed
 
-        private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        private void ComboMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ComboMenuActionPerformed
                 // TODO add your handling code here:
-        }//GEN-LAST:event_jComboBox1ActionPerformed
+        }//GEN-LAST:event_ComboMenuActionPerformed
 
         private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
                 // TODO add your handling code here:
@@ -308,9 +308,9 @@ public class KasirGUI2 extends javax.swing.JFrame {
                 // TODO add your handling code here:
         }//GEN-LAST:event_jButton7ActionPerformed
 
-        private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-                // TODO add your handling code here:
-        }//GEN-LAST:event_jButton3ActionPerformed
+        private void AddMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddMenuActionPerformed
+	// TODO add your handling code here:
+        }//GEN-LAST:event_AddMenuActionPerformed
 
 	/**
 	 * @param args the command line arguments
@@ -349,16 +349,17 @@ public class KasirGUI2 extends javax.swing.JFrame {
 	}
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
-        private javax.swing.JButton jButton1;
-        private javax.swing.JButton jButton2;
-        private javax.swing.JButton jButton3;
+        private javax.swing.JButton AddMenu;
+        private javax.swing.JComboBox<String> ComboMenu;
+        private javax.swing.JTextField JumlahMenu;
+        private javax.swing.JButton Minus;
+        private javax.swing.JButton Plus;
         private javax.swing.JButton jButton4;
         private javax.swing.JButton jButton5;
         private javax.swing.JButton jButton6;
         private javax.swing.JButton jButton7;
         private javax.swing.JButton jButton8;
         private javax.swing.JButton jButton9;
-        private javax.swing.JComboBox<String> jComboBox1;
         private javax.swing.JComboBox<String> jComboBox2;
         private javax.swing.JLabel jLabel1;
         private javax.swing.JLabel jLabel2;
@@ -368,7 +369,6 @@ public class KasirGUI2 extends javax.swing.JFrame {
         private javax.swing.JScrollPane jScrollPane3;
         private javax.swing.JTextArea jTextArea1;
         private javax.swing.JTextArea jTextArea2;
-        private javax.swing.JTextField jTextField1;
         private javax.swing.JTextField jTextField2;
         private javax.swing.JTextField jTextField3;
         private javax.swing.JTextField jTextField4;
