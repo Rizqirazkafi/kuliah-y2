@@ -7,17 +7,18 @@ import java.awt.event.*;
 import java.awt.Color;
 import java.awt.Font;
 
-public class App extends JFrame implements ActionListener{
-    JLabel label, tambahanTitle,menuText;
+public class App extends JFrame implements ActionListener {
+    JLabel label, tambahanTitle, menuText;
     JPanel judul, kiri, kanan;
-    JComboBox menu, menuTambahan,tambahan;
-    JButton menuKurang, menuTambah,addBtn, menuKurangTambahan, menuTambahTambahan,addBtnTambahan,reset,Cetak,bayar;
-    JTextField jumlahMenuTambahan, hargaTotal,jumlahMenu,outputHargaTotal,uang,inputUang,kembali,outputKembali;
+    JComboBox menu, menuTambahan, tambahan;
+    JButton menuKurang, menuTambah, addBtn, menuKurangTambahan, menuTambahTambahan, addBtnTambahan, reset, Cetak, bayar;
+    JTextField jumlahMenuTambahan, hargaTotal, jumlahMenu, outputHargaTotal, uang, inputUang, kembali, outputKembali;
     JTextArea struk, pesanan;
-    JScrollPane strukOut,pesananScroll;
+    JScrollPane strukOut, pesananScroll;
+    int hargaMenu, menuPilihan,menuTambahanInsert,jumlahPesanan;
 
     App() {
-        
+
         label = new JLabel();
         label.setText("Kasir Warung Makan");
         label.setFont(new Font("Serif", Font.BOLD, 48));
@@ -35,7 +36,7 @@ public class App extends JFrame implements ActionListener{
         menuText = new JLabel("Menu");
         menuText.setBounds(20, 0, 300, 20);
         menuText.setFont(new Font("Serif", Font.PLAIN, 20));
-        String list[] = {"Burger - 10k", "Pizza - 20k", "Spagheti - 10k"};
+        String list[] = { "Burger - 10k", "Pizza - 20k", "Spagheti - 10k" };
         menu = new JComboBox<>(list);
         menu.setFont(new Font("Serif", Font.PLAIN, 30));
         menu.setBounds(20, 25, 300, 40);
@@ -48,6 +49,7 @@ public class App extends JFrame implements ActionListener{
         jumlahMenu = new JTextField();
         jumlahMenu.setBounds(410, 25, 60, 40);
         addBtn = new JButton("Add");
+        addBtn.addActionListener(this);
         addBtn.setBounds(550, 25, 80, 40);
         addBtn.setFont(new Font("Serif", Font.PLAIN, 20));
 
@@ -94,6 +96,7 @@ public class App extends JFrame implements ActionListener{
         inputUang.setBounds(485, 420, 145, 40);
 
         bayar = new JButton("Bayar");
+        bayar.addActionListener(this);
         bayar.setBounds(485, 470, 145, 50);
         bayar.setFont(new Font("Serif", Font.PLAIN, 30));
 
@@ -163,9 +166,24 @@ public class App extends JFrame implements ActionListener{
         this.setVisible(true);
         this.setLocationRelativeTo(null);
     }
-    public void actionPerformed(ActionEvent e){
-        if(e.getSource()==addBtn){
-            System.out.println("selected menu :" + menu.getSelectedItem());
+
+    public void actionPerformed(ActionEvent e) {
+    }
+    public void addBtnActionPerformed(ActionEvent w){
+
+        menuPilihan = menu.getSelectedIndex();
+        switch(menuPilihan){
+            case 0 :
+                hargaMenu = 10000;
+                break;
+            case 1 :
+                hargaMenu = 20000;
+                break;
+            case 2 :
+                hargaMenu = 10000;
+                break;
         }
+        jumlahPesanan = Integer.parseInt(jumlahMenu.getText());
+        int sub = menuPilihan * jumlahPesanan; 
     }
 }

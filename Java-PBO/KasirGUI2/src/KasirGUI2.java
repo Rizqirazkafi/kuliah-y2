@@ -91,6 +91,11 @@ public class KasirGUI2 extends javax.swing.JFrame {
                                 AddMenuActionPerformed(evt);
                         }
                 });
+                AddMenu.addKeyListener(new java.awt.event.KeyAdapter() {
+                        public void keyPressed(java.awt.event.KeyEvent evt) {
+                                AddMenuKeyPressed(evt);
+                        }
+                });
 
                 jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
                 jLabel3.setText("Jumlah");
@@ -311,6 +316,10 @@ public class KasirGUI2 extends javax.swing.JFrame {
         private void AddMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddMenuActionPerformed
 	// TODO add your handling code here:
         }//GEN-LAST:event_AddMenuActionPerformed
+
+        private void AddMenuKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_AddMenuKeyPressed
+                // TODO add your handling code here:
+        }//GEN-LAST:event_AddMenuKeyPressed
 
 	/**
 	 * @param args the command line arguments
