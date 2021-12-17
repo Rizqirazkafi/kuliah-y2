@@ -1,4 +1,3 @@
-package src;
 
 public class App {
     private static Database database = new Database();

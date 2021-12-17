@@ -3,7 +3,6 @@
  *
  */
 
-package src;
 
 public class Laptop{
     private String merek;
