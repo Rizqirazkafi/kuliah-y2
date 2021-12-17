@@ -7,7 +7,7 @@ package testkasir3;
 
 /**
  *
- * @author hendra
+ * @author Rizqirazkafi
  */
 class DefaultModelTable {
     

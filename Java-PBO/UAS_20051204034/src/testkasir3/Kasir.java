@@ -12,7 +12,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author hendra
+ * @author Rizqirazkafi
  */
 public class Kasir extends javax.swing.JFrame {
 
