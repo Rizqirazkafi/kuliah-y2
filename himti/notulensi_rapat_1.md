@@ -2,7 +2,7 @@
 
 ## Struktur Organisasi HIMTI 2022
 <ul>
-<li>Ketua &ensp;      : Iqbal Izza A</li>
+<li>Ketua &emsp;      : Iqbal Izza A</li>
 <li>Wakil Ketua : Ananda Irvan</li>
 <li>Sekretaris  : Irma</li>
 <li>Bendahara   : Lidia</li>
