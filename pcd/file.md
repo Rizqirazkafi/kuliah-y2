@@ -7,8 +7,11 @@
 ## Resources
 ### Image sample
 original image 10x10px:
+
 ![Original Image](image.jpg)
+
 scaled image to 40x:
+
 ![scaled image](image_scaled40.jpg)
 
 ### Python Library
