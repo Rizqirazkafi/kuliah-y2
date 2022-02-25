@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{titling}
+\usepackage[a4paper]{geometry}
+\geometry{
+    left=20mm,
+    top=20mm,
+}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\Roman{subsection}}
+\title{\LARGE \textbf {\huge{Pengenalan TOR Network}}}
+\author{
+    M Rizqi R\\
+    Teknik Informatika\\
+    Universitas Negeri Surabaya\\
+    \and
+        Alfito Mulyono\\
+        Teknik Informatika\\
+        Universitas Negeri Surabaya\\
+}
+\date{\today}
+
+\begin{document}
+\pagenumbering{gobble}
+    \maketitle
+    \begin{multicols*}{2}
+        \section{Pendahuluan}
+        \lipsum[1-2]    
+        \section{Rumusan Masalah}
+        \lipsum[1-3]
+        \section{Penutup}
+        \lipsum[1]
+    \end{multicols*}
+\pagenumbering{arabic}
+\end{document}
