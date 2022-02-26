@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1645785687 "/home/rizqirazkafi/github/kuliah-y2/metodologi-penelitian/jaringan/vpn/makalah.tex" "makalah.pdf" "makalah" 1645785688
-  "/home/rizqirazkafi/github/kuliah-y2/metodologi-penelitian/jaringan/vpn/makalah.tex" 1645785687 931 999d3c0ec3d4774106870423de47c31d ""
+["pdflatex"] 1645855183 "/home/rizqirazkafi/github/kuliah-y2/riset-operasional/riset-operasional.tex" "riset-operasional.pdf" "riset-operasional" 1645855183
+  "/home/rizqirazkafi/github/kuliah-y2/riset-operasional/riset-operasional.tex" 1645855183 649 f0cd3618d1126c6a32b77b71834b672f ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1640600964 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1640600964 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -78,11 +78,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1645771858 4372627 61ff1e80ac3be442048b69305fe67333 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1645771849 2920104 2e11295b3557901a98a3a63f13a7688e ""
-  "makalah.aux" 1645785688 1010 d723efe4f7919c9083ffd545e6cd9377 "pdflatex"
-  "makalah.out" 1645785688 297 8eca2beebec4d55322711bdb7dde7a5e "pdflatex"
-  "makalah.tex" 1645785687 931 999d3c0ec3d4774106870423de47c31d ""
+  "riset-operasional.aux" 1645855183 794 63665827962641e0d1dd4ae57edd8164 "pdflatex"
+  "riset-operasional.out" 1645855183 98 33927ff5d59bc5b9733f900a6da65256 "pdflatex"
+  "riset-operasional.tex" 1645855183 649 f0cd3618d1126c6a32b77b71834b672f ""
   (generated)
-  "makalah.aux"
-  "makalah.log"
-  "makalah.out"
-  "makalah.pdf"
+  "riset-operasional.aux"
+  "riset-operasional.log"
+  "riset-operasional.out"
+  "riset-operasional.pdf"
