@@ -1,12 +1,11 @@
 \documentclass{article}
 
+\usepackage{indentfirst}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum}
-\usepackage{multicol}
-\usepackage{titling}
 \usepackage[a4paper]{geometry}
 \geometry{
     left=20mm,
@@ -14,16 +13,16 @@
 }
 \renewcommand{\thesection}{\Roman{section}}
 \renewcommand{\thesubsection}{\Roman{subsection}}
-\title{\LARGE \textbf {\huge{Pengenalan TOR Network}}}
+\title{\LARGE \textbf {\huge{Mendalami Onion Network dengan TOR}}}
 \author{
     M Rizqi R\\
     20051204034\\
-    Teknik Informatika\\
+    Teknik Informatika 2020 B\\
     Universitas Negeri Surabaya\\
     \and
         Alfito Mulyono\\
-        NIM\\
-        Teknik Informatika\\
+        20051204038\\
+        Teknik Informatika 2020 B\\
         Universitas Negeri Surabaya\\
 }
 \date{\today}
@@ -31,13 +30,41 @@
 \begin{document}
 \pagenumbering{gobble}
     \maketitle
-    \begin{multicols*}{2}
         \section{Pendahuluan}
-        \lipsum[1-2]    
+        \subsection*{1.1 Latar Belakang}
+        Bocornya informasi pengguna internet memiliki dampak yang merugikan.
+        Banyak sekali pihak yang ingin mencuri data kita untuk 
+        dimanfaatkan dalam kepentingan mereka pribadi. Mereka akan menjual 
+        data kita kepada pihak-pihak yang menginginkan data kita.
+
+        Kita dapat mengambil contoh dari sebuah perusahaan media sosial ternama
+        seperti Facebook. Pada 19 Desember 2018, Facebook diketahui telah
+        membocorkan 1,5 miliar data pengguna Facebook dan menjualnya kepada pihak ketiga.
+        Mark Zuckerberd, pendiri Facebook dinyatakan bersalah dalam persidangan 
+        dan dijatuhi denda sesuai keputusan hakim.
+
+        Namun kebocoran data bisa juga terjadi karena kesalahan pengguna.
+        Pengguna kerap mengunjungi situs-situs acak kemudian tanpa
+        sengaja menekan iklan yang muncul dalam situs tersebut. 
+        Kemudian pengguna tanpa sadar telah mengunduh perangkat
+        lunak yang berisi virus yang kemudian berjalan dibelakang layar.
+        Virus ini dapat berupa berbagai jenis perangkat lunak yang dapat
+        menginfeksi perangkat pengguna.
+
+        Ada pula virus yang bahkan bisa digunakan untuk melacak setiap jengkal
+        aktivitas pengguna. Baik itu dari ketikan keyboard, lokasi, bahkan mampu memanipulasi
+        berkas digital yang dimiliki oleh pengguna hingga bisa mencuri berkas tersebut.
+
+        Maka dari itu diperlukan cara agar kita terhindar dari kejahatan internet tersebut.
+        Salah satunya ialah memilih alat penjelajah web (\textit{web browser}) yang tepat.
+        Web browser yang tidak melacak kita saat menjelajah internet dan mencegah
+        situs-situs berbahaya melacak dan mencuri data kita.
+        \subsection*{1.2 Tujuan}
+        Berdasarkan latar belakang yang telah dipaparkan. Tujuan makalah ini adalah
+        untuk memberikan wawasan tentang \textit{web browser} yang fokus pada 
+        privasi dan keamanan pengguna.
+
         \section{Rumusan Masalah}
-        \lipsum[1-3]
         \section{Penutup}
-        \lipsum[1]
-    \end{multicols*}
 \pagenumbering{arabic}
 \end{document}
