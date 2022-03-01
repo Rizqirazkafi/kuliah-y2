@@ -1,8 +1,8 @@
 PWD /home/rizqirazkafi/github/kuliah-y2/riset-operasional
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/rizqirazkafi/github/kuliah-y2/riset-operasional/riset-operasional.tex
-OUTPUT riset-operasional.log
+INPUT /home/rizqirazkafi/github/kuliah-y2/riset-operasional/20051204034_M Rizqi R_ Tugas1.tex
+OUTPUT 20051204034_M Rizqi R_ Tugas1.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
@@ -508,10 +508,21 @@ INPUT /usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/share/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT ./riset-operasional.aux
-INPUT riset-operasional.aux
-INPUT riset-operasional.aux
-OUTPUT riset-operasional.aux
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT ./20051204034_M Rizqi R_ Tugas1.aux
+INPUT 20051204034_M Rizqi R_ Tugas1.aux
+INPUT 20051204034_M Rizqi R_ Tugas1.aux
+OUTPUT 20051204034_M Rizqi R_ Tugas1.aux
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -568,40 +579,47 @@ INPUT /usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT ./riset-operasional.out
-INPUT riset-operasional.out
-INPUT ./riset-operasional.out
-INPUT riset-operasional.out
-INPUT ./riset-operasional.out
-INPUT riset-operasional.out
-INPUT ./riset-operasional.out
-INPUT riset-operasional.out
-OUTPUT riset-operasional.pdf
-INPUT ./riset-operasional.out
-INPUT ./riset-operasional.out
-OUTPUT riset-operasional.out
+INPUT ./20051204034_M Rizqi R_ Tugas1.out
+INPUT 20051204034_M Rizqi R_ Tugas1.out
+INPUT ./20051204034_M Rizqi R_ Tugas1.out
+INPUT 20051204034_M Rizqi R_ Tugas1.out
+INPUT ./20051204034_M Rizqi R_ Tugas1.out
+INPUT 20051204034_M Rizqi R_ Tugas1.out
+INPUT ./20051204034_M Rizqi R_ Tugas1.out
+INPUT 20051204034_M Rizqi R_ Tugas1.out
+OUTPUT 20051204034_M Rizqi R_ Tugas1.pdf
+INPUT ./20051204034_M Rizqi R_ Tugas1.out
+INPUT ./20051204034_M Rizqi R_ Tugas1.out
+OUTPUT 20051204034_M Rizqi R_ Tugas1.out
 INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT riset-operasional.aux
-INPUT ./riset-operasional.out
-INPUT ./riset-operasional.out
+INPUT 20051204034_M Rizqi R_ Tugas1.aux
+INPUT ./20051204034_M Rizqi R_ Tugas1.out
+INPUT ./20051204034_M Rizqi R_ Tugas1.out
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
