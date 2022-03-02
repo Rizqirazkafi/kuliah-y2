@@ -7,6 +7,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum}
 \usepackage[a4paper]{geometry}
+\graphicspath{{}}
 \geometry{
     left=20mm,
     top=20mm,
@@ -59,12 +60,84 @@
         Salah satunya ialah memilih alat penjelajah web (\textit{web browser}) yang tepat.
         Web browser yang tidak melacak kita saat menjelajah internet dan mencegah
         situs-situs berbahaya melacak dan mencuri data kita.
-        \subsection*{1.2 Tujuan}
-        Berdasarkan latar belakang yang telah dipaparkan. Tujuan makalah ini adalah
-        untuk memberikan wawasan tentang \textit{web browser} yang fokus pada 
-        privasi dan keamanan pengguna.
+        \subsection*{1.2 Rumusan Masalah}
+        \noindent Adapun rumusan masalah pada pemaparan ini adalah:
+        \begin{enumerate}
+            \item Apa yang dimaksud dengan keamanan internet?
+            \item Bagaimana mencegah diri dari \textit{cyber crime}?
+            \item Bagaimana menggunakan TOR sebagai media penjelajah yang aman?
+        \end{enumerate}
 
-        \section{Rumusan Masalah}
+        \subsection*{1.3 Tujuan}
+        \noindent Berdasarkan latar belakang yang telah dipaparkan. Tujuan makalah ini adalah
+        untuk memberikan wawasan tentang \textit{web browser} yang fokus pada 
+        privasi dan keamanan pengguna. Maka dari itu, tujuan spesifik dari makalah
+        berikut adalah sebagai berikut:
+        \begin{enumerate}
+            \item Membuat pembaca mengerti tentang pentingnya \textit{cyber security.}
+            \item Membuat pembaca memahami cara mengamankan dirinya dari kebocoran dan pencurian data.
+            \item Membuat pembaca memahami konsep \textit{Cyber Security, VPN, proxy, TOR Network}.
+            \item Membuat pembaca memahami cara menggunakan \textit{TOR Network}. 
+        \end{enumerate}
+       
+        \section{Pembahasan}
+        \subsection*{2.1 Cyber Security}
+        \noindent Adalah istilah yang digunakan untuk metode pengamanan data baik pribadi
+        maupun publik dalam jaringan internet. Metode \textit{cyber security}
+        dirancang untuk melawan ancaman terhadap sistem jaringan dan aplikasi,
+        baik itu serangan yang berasal dari dalam maupun luar sistem.
+        \subsection*{2.2 VPN}
+        Adalah singkatan dari \textit{Virtual Private Network} merupakan
+        sebuah metode untuk menyembunyikan alamat IP asli dari pelacakan. Dengan VPN
+        , alamat IP akan dipalsukan atau dialihkan dari perangkat asli pengguna
+        ke perangkat yang ada di server penyedia VPN. Contoh kasusnya
+        adalah jika penyedia internet kita mencegah kita untuk mengakses
+        alamat IP tertentu, maka kita bisa memakai VPN untuk melakukan 
+        tunneling ke sever luar yang dimana alamat IP tersebut bisa di akses.
+        Dengan ini, alamat IP pengguna yang sesungguhnya dapat di bungkus
+        dan dialihkan ke alamat IP server luar atau pihak ketiga.
+        Namun metode ini tidak sepenuhnya aman. Sudah banyak laporan tentang
+        bocornya data pengguna NordVPN. NordVPN ialah salah satu 
+        penyedia layanan VPN yang sudah cukup terkenal. Namun sudah banyak
+        laporan bahwa data pengguna bocor.
+
+        Ini disebabkan adanya tindakan penetrasi pada enkripsi saat pengguna
+        melakukan autentifikasi ketika mencoba terhubung ke layanan penyedia VPN.
+        Kemungkinan yang lain adalah ada yang mengakses server VPN secara langsung
+        dan mencuri data atau kunci autentifikasi pengguna. Juga bisa terjadi ketika
+        pengguna mengakses Wi-Fi publik yang ternyata merupakan Wi-Fi buatan peretas 
+        dan peretas tersebut mendapatkan kunci VPN melalui \textit{Man In The Middle Attack}.
+        \subsection*{2.3 Proxy}
+        \noindent Adalah sebuah server pihak ketiga yang menjadi perantara antara
+        pengguna ke server yang dituju sebagai alternatif daripada 
+        langsung menghubungi server. Proxy ditujukan bila pihak penyedia
+        internet memblokir alamat IP tertentu. Maka dengan proxy, kita bisa
+        terlebih dahulu terhubung ke server pihak ketiga kemudian mengakses 
+        alamat IP tujuan kita melalui server tersebut. Namun metode ini 
+        tidak akan menyembunyikan alamat IP kita dan cenderung rawan untuk 
+        dipenetrasi dengan \textit{Man In The Middle Attack.} Seseorang bisa sengaja
+        masuk diantara jalur pengguna dan penyedia \textit{proxy} dan 
+        melakukan \textit{sniffing} atau melihat data yang lewat melalui 
+        jaringan.
+
+        \subsection*{2.4 TOR Network}
+        TOR adalah sebuah \textit{Free and Open Source Software} yang merupakan sebuah 
+        protokol keamanan diinternet yang bisa digunakan secara gratis. Protokol ini akan
+        menggabungkan teknologi \textit{VPN} dan \textit{Proxy}. Dimana pengguna akan masuk
+        ke dalam jaringan TOR untuk mengakses internet. Alamat IP pengguna akan melompati 
+        beberapa server sukarelawan secara acak sebelum terhubung ke internet.
+        \begin{figure}[h]
+        \includegraphics[scale=0.5, width=0.5\textwidth]{tor.jpg}
+        \centering 
+        \end{figure}
+
+        Ini dapat memberikan keamanan lebih kepada pengguna dikarenakan alamat IP pengguna
+        akan dibungkus dengan berlapis-lapis alamat IP yang membuat penyerang kesulitan bahkan
+        tidak mungkin melacak alamat IP asli pengguna. Ini juga dikarenakan fitur enkripsi
+        akan diterapkan pada setiap pembungkus alamat IP.
+        \subsection*{2.4.1 Cara Menggunakan TOR}
+        
         \section{Penutup}
-\pagenumbering{arabic}
-\end{document}
+        \pagenumbering{arabic}
+        \end{document}
+        \item Membuat pembaca
