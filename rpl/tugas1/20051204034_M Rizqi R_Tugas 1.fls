@@ -1,8 +1,8 @@
-PWD /home/rizqirazkafi/github/kuliah-y2/metodologi-penelitian/jaringan/vpn
+PWD /home/rizqirazkafi/github/kuliah-y2/rpl/tugas1
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/rizqirazkafi/github/kuliah-y2/metodologi-penelitian/jaringan/vpn/makalah.tex
-OUTPUT makalah.log
+INPUT /home/rizqirazkafi/github/kuliah-y2/rpl/tugas1/20051204034_M Rizqi R_Tugas 1.tex
+OUTPUT 20051204034_M Rizqi R_Tugas 1.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
@@ -512,42 +512,21 @@ INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT ./makalah.aux
-INPUT makalah.aux
-INPUT makalah.aux
-OUTPUT makalah.aux
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
+INPUT ./20051204034_M Rizqi R_Tugas 1.aux
+INPUT 20051204034_M Rizqi R_Tugas 1.aux
+INPUT 20051204034_M Rizqi R_Tugas 1.aux
+OUTPUT 20051204034_M Rizqi R_Tugas 1.aux
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -604,20 +583,21 @@ INPUT /usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT ./makalah.out
-INPUT makalah.out
-INPUT ./makalah.out
-INPUT makalah.out
-INPUT ./makalah.out
-INPUT makalah.out
-INPUT ./makalah.out
-INPUT makalah.out
-OUTPUT makalah.pdf
-INPUT ./makalah.out
-INPUT ./makalah.out
-OUTPUT makalah.out
+INPUT ./20051204034_M Rizqi R_Tugas 1.out
+INPUT 20051204034_M Rizqi R_Tugas 1.out
+INPUT ./20051204034_M Rizqi R_Tugas 1.out
+INPUT 20051204034_M Rizqi R_Tugas 1.out
+INPUT ./20051204034_M Rizqi R_Tugas 1.out
+INPUT 20051204034_M Rizqi R_Tugas 1.out
+INPUT ./20051204034_M Rizqi R_Tugas 1.out
+INPUT 20051204034_M Rizqi R_Tugas 1.out
+INPUT ./20051204034_M Rizqi R_Tugas 1.out
+INPUT ./20051204034_M Rizqi R_Tugas 1.out
+OUTPUT 20051204034_M Rizqi R_Tugas 1.out
+OUTPUT 20051204034_M Rizqi R_Tugas 1.pdf
 INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -632,58 +612,11 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./tor.jpg
-INPUT ./tor.jpg
-INPUT tor.jpg
-INPUT ./tor.jpg
-INPUT ./tor.jpg
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT ./tor-web.png
-INPUT ./tor-web.png
-INPUT tor-web.png
-INPUT ./tor-web.png
-INPUT ./tor-web.png
-INPUT ./tor-linux.png
-INPUT ./tor-linux.png
-INPUT tor-linux.png
-INPUT ./tor-linux.png
-INPUT ./tor-linux.png
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT ./tor-first.png
-INPUT ./tor-first.png
-INPUT tor-first.png
-INPUT ./tor-first.png
-INPUT ./tor-first.png
-INPUT ./tor-connect.png
-INPUT ./tor-connect.png
-INPUT tor-connect.png
-INPUT ./tor-connect.png
-INPUT ./tor-connect.png
-INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT ./makalah.bbl
-INPUT makalah.bbl
-INPUT ./makalah.bbl
-INPUT makalah.bbl
-INPUT makalah.aux
-INPUT ./makalah.out
-INPUT ./makalah.out
-INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT 20051204034_M Rizqi R_Tugas 1.aux
+INPUT ./20051204034_M Rizqi R_Tugas 1.out
+INPUT ./20051204034_M Rizqi R_Tugas 1.out
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

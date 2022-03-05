@@ -7,6 +7,15 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum}
 \usepackage[a4paper]{geometry}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{natbib}
+\lstset{
+    basicstyle=\ttfamily,
+    showstringspaces=false,
+    commentstyle=\color{red},
+    keywordstyle=\color{blue}
+}
 \graphicspath{{}}
 \geometry{
     left=20mm,
@@ -27,9 +36,8 @@
         Universitas Negeri Surabaya\\
 }
 \date{\today}
-
+\usepackage{hyperref}
 \begin{document}
-\pagenumbering{gobble}
     \maketitle
         \section{Pendahuluan}
         \subsection*{1.1 Latar Belakang}
@@ -121,7 +129,7 @@
         jaringan.
 
         \subsection*{2.4 TOR Network}
-        TOR adalah sebuah \textit{Free and Open Source Software} yang merupakan sebuah 
+        TOR (The Onion Routing) adalah sebuah \textit{Free and Open Source Software} yang merupakan sebuah 
         protokol keamanan diinternet yang bisa digunakan secara gratis. Protokol ini akan
         menggabungkan teknologi \textit{VPN} dan \textit{Proxy}. Dimana pengguna akan masuk
         ke dalam jaringan TOR untuk mengakses internet. Alamat IP pengguna akan melompati 
@@ -134,10 +142,93 @@
         Ini dapat memberikan keamanan lebih kepada pengguna dikarenakan alamat IP pengguna
         akan dibungkus dengan berlapis-lapis alamat IP yang membuat penyerang kesulitan bahkan
         tidak mungkin melacak alamat IP asli pengguna. Ini juga dikarenakan fitur enkripsi
-        akan diterapkan pada setiap pembungkus alamat IP.
-        \subsection*{2.4.1 Cara Menggunakan TOR}
+        akan diterapkan pada setiap pembungkus alamat IP. Semua ini bisa dilakukan dengan 
+        menggunakan TOR Browser atau TOR Tunneling.
+
+       \subsection*{2.4.1 Instalasi TOR Browser } 
+       Kita dapat menggunakan TOR dengan menginstall TOR Browser yang bisa didapatkan melalui 
+        situs resmi yaitu \url{https://www.torproject.org/}.
+
+        \begin{figure}[h]
+        \includegraphics[scale=0.5, width=0.5\textwidth]{tor-web.png}
+        \centering 
+        \end{figure}
+
+        Kemudian masuk ke laman \textit{Download} dan pilih sistem operasi yang digunakan.
+        Setelah selesai mendownload, jika pengguna menggunakan Sistem Operasi Windows, maka
+        TOR Browser dapat diinstal dengan melalui file yang telah di download. 
+        Untuk Sistem Operasi Distribusi Linux, TOR Browser tersedia di \textit{Package Manager}
+        setiap distro atau dapat diinstall melalui Flatpack atau Snap Packages.
+
+        Jika tidak tersedia, maka kita bisa langsung masuk ke situs resmi dan mendownload
+        \textit{executable binnary}.
+
+        \begin{figure}[h]
+        \includegraphics[scale=0.3]{tor-linux.png}
+        \centering
+        \end{figure}
+
+        Setelah terdownload, navigasi ke folder tempat file kompresi tersebut berada dan
+        extract menggunakan perintah :
+        \begin{lstlisting}[language=bash]
+           tar -xvf tor-browser-linux64-11.0.6_en-US.tar.xz 
+        \end{lstlisting}
+        Sesuaikan versi dengan yang telah didownload. Kemudian masuk ke directory tersebut
+        dan eksekusi dengan :
+        \begin{lstlisting}[language=bash]
+            ./start-tor-browser.desktop
+        \end{lstlisting}
+        kemudian akan muncul tampilan seperti berikut :
+        \begin{figure}[h]
+        \includegraphics[width=0.5\textwidth]{tor-first.png}
+        \centering
+        \end{figure}
+
+        Kita bisa langsung memilih 'Connect' untuk menyambungkan ke jaringan TOR.
+        Akan membutuhkan sedikit waktu untuk terhubung, terutama bila jaringan
+        internet pengguna terbilang lambat. Maka waktu yang diperlukan untuk 
+        menghubungi TOR Network juga akan lebih lambat. Dikarenakan alamat IP harus
+        melompat ke banyak node agar bisa mencapai onion routing.
+        Bila sudah terhubung, akan muncul tampilan sebagai berikut :
+        \begin{figure}[h]
+        \includegraphics[width=0.5\textwidth]{tor-connect.png}
+        \centering
+        \end{figure}
+
+        Setelah ini, kita dapat mengakses internet tanpa perlu khawatir dengan adanya
+        pelacakan. Dengan TOR juga kita dapat mengakses situs-situs yang tidak
+        biasa ada di internet dengan domain \textit{.onion}. Biasanya situs yang
+        menggunakan domain \textit{.onion} merupakan situs-situs tersembunyi berisi 
+        layanan ilegal seperti cuci uang, senjata ilegal, penyewaan hacker, pembunuh
+        bayaran, dan lain-lain.
+
         
+
+
         \section{Penutup}
-        \pagenumbering{arabic}
+        Dengan ini dapat dikatakan bahwa untuk mencegah diri dari \textit{cyber attack}.
+        terdapat berbagai metode. Beberapa diantaranya ialah menggunakan \textit{proxy, VPN, dan TOR}.
+        untuk menyembunyikan identitas kita di internet dan mencegah penjahat untuk
+        melacak aktivitas dan keberadaan kita. Namun cara diatas tidak akan berhasil jika
+        tidak disertai dengan kesadaran berinternet yang memadai dan mawas akan teknologi.
+        Melakukan tindakan seperti mendownload dan/atau menginstall konten bajakan seperti
+        film, perangkat lunak, dan sebagainya juga mampu mendatangkan marabahaya dikarenakan
+        kita tidak bisa memastikan apakah file tersebut aman dari virus atau perangkat
+        lunak berbahaya lainnya.
+
+        Selain itu, juga lebih banyak metode yang biasa digunakan oleh para kriminal
+        untuk mengakses data kita. Namun karena hal tersebut barada diluar konteks
+        pembahasan tulisan ini, maka penulis tidak mencantumkan penjelasan lebih lanjut
+        mengenai metode yang digunakan. Selama kita berhati-hati dalam menjelajah internet
+        maka kita akan mendapatkan keamanan dan kenyamanan yang kita inginkan dan kita butuhkan.
+
+        Sekian yang dapat penulis sampaikan. Kurang dan lebihnya mohon dimaafkan dikarenakan
+        penulis juga hanya manusia biasa yang tak luput dari kesalahan.
+        \textbf{Terima kasih.}
+
+        \nocite{*}
+        \bibliographystyle{plainnat}
+        \bibliography{Biblio}
+        
         \end{document}
         \item Membuat pembaca

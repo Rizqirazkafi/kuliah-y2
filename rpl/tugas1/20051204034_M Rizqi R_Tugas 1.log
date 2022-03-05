@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.2.25)  5 MAR 2022 18:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.2.25)  5 MAR 2022 21:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/rizqirazkafi/github/kuliah-y2/metodologi-penelitian/jaringan/vpn/makalah.tex
-(/home/rizqirazkafi/github/kuliah-y2/metodologi-penelitian/jaringan/vpn/makalah.tex
+**"/home/rizqirazkafi/github/kuliah-y2/rpl/tugas1/20051204034_M Rizqi R_Tugas 1.tex"
+(/home/rizqirazkafi/github/kuliah-y2/rpl/tugas1/20051204034_M Rizqi R_Tugas 1.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -250,75 +250,115 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
-) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count286
-\lst@gtempboxa=\box53
-\lst@token=\toks25
-\lst@length=\count287
-\lst@currlwidth=\dimen162
-\lst@column=\count288
-\lst@pos=\count289
-\lst@lostspace=\dimen163
-\lst@width=\dimen164
-\lst@newlines=\count290
-\lst@lineno=\count291
-\lst@maxwidth=\dimen165
- (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count292
-\lst@skipnumbers=\count293
-\lst@framebox=\box54
-) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip53
-\bibsep=\skip54
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count294
-) (./makalah.aux)
-\openout1 = `makalah.aux'.
+) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count286
+\mult@box=\box53
+\multicol@leftmargin=\dimen162
+\c@unbalance=\count287
+\c@collectmore=\count288
+\doublecol@number=\count289
+\multicoltolerance=\count290
+\multicolpretolerance=\count291
+\full@width=\dimen163
+\page@free=\dimen164
+\premulticols=\dimen165
+\postmulticols=\dimen166
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box54
+\last@line=\box55
+\maxbalancingoverflow=\dimen167
+\mult@rightbox=\box56
+\mult@grightbox=\box57
+\mult@firstbox=\box58
+\mult@gfirstbox=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\c@minrows=\count292
+\c@columnbadness=\count293
+\c@finalcolumnbadness=\count294
+\last@try=\dimen168
+\multicolovershoot=\dimen169
+\multicolundershoot=\dimen170
+\mult@nat@firstbox=\box96
+\colbreak@box=\box97
+\mc@col@check@num=\count295
+) (./20051204034_M Rizqi R_Tugas 1.aux)
+\openout1 = `"20051204034_M Rizqi R_Tugas 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen166
-\scratchbox=\box55
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen167
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count296
+\scratchdimen=\dimen171
+\scratchbox=\box98
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen172
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 23.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -326,14 +366,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
- (./makalah.out) (./makalah.out)
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
+ (./20051204034_M Rizqi R_Tugas 1.out) (./20051204034_M Rizqi R_Tugas 1.out)
 \@outlinefile=\write3
-\openout3 = `makalah.out'.
+\openout3 = `"20051204034_M Rizqi R_Tugas 1.out"'.
 
 
 *geometry* driver: auto-detecting
@@ -370,158 +410,30 @@ LaTeX Info: Redefining \nameref on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count302
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[][]\OT1/cmr/bx/n/14.4 B. Model Pengem-ban-gan
+ []
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<tor.jpg, id=35, 1124.2pt x 726.715pt>
-File: tor.jpg Graphic file (type jpg)
-<use tor.jpg>
-Package pdftex.def Info: tor.jpg  used on input line 138.
-(pdftex.def)             Requested size: 562.09863pt x 363.3566pt.
- [2 <./tor.jpg>]
-<tor-web.png, id=45, 1915.155pt x 966.61125pt>
-File: tor-web.png Graphic file (type png)
-<use tor-web.png>
-Package pdftex.def Info: tor-web.png  used on input line 153.
-(pdftex.def)             Requested size: 957.57516pt x 483.30444pt.
-<tor-linux.png, id=47, 269.005pt x 338.26375pt>
-File: tor-linux.png Graphic file (type png)
-<use tor-linux.png>
-Package pdftex.def Info: tor-linux.png  used on input line 167.
-(pdftex.def)             Requested size: 80.70212pt x 101.4799pt.
- (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-<tor-first.png, id=48, 1443.89438pt x 810.77907pt>
-File: tor-first.png Graphic file (type png)
-<use tor-first.png>
-Package pdftex.def Info: tor-first.png  used on input line 183.
-(pdftex.def)             Requested size: 225.48764pt x 126.60968pt.
-<tor-connect.png, id=49, 1441.63594pt x 812.28468pt>
-File: tor-connect.png Graphic file (type png)
-<use tor-connect.png>
-Package pdftex.def Info: tor-connect.png  used on input line 194.
-(pdftex.def)             Requested size: 225.48764pt x 127.0431pt.
- [3 <./tor-web.png> <./tor-linux.png> <./tor-first.png (PNG copy)>] (./makalah.bbl
-./makalah.bbl:8: Illegal parameter number in definition of \NAT@tmp.
-<to be read again> 
-                   1
-l.8 ...18)#1, Joel, #2, #3, #4, and #5]{a1_2018_a}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./makalah.bbl:8: Illegal parameter number in definition of \NAT@tmp.
-<to be read again> 
-                   1
-l.8 ...18)#1, Joel, #2, #3, #4, and #5]{a1_2018_a}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./makalah.bbl:8: Illegal parameter number in definition of \NAT@tmp.
-<to be read again> 
-                   2
-l.8 ...18)#1, Joel, #2, #3, #4, and #5]{a1_2018_a}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./makalah.bbl:8: Illegal parameter number in definition of \NAT@tmp.
-<to be read again> 
-                   3
-l.8 ...18)#1, Joel, #2, #3, #4, and #5]{a1_2018_a}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./makalah.bbl:8: Illegal parameter number in definition of \NAT@tmp.
-<to be read again> 
-                   4
-l.8 ...18)#1, Joel, #2, #3, #4, and #5]{a1_2018_a}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./makalah.bbl:8: Illegal parameter number in definition of \NAT@tmp.
-<to be read again> 
-                   5
-l.8 ...18)#1, Joel, #2, #3, #4, and #5]{a1_2018_a}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-./makalah.bbl:9: You can't use `macro parameter character #' in horizontal mode.
-l.9 Karthigeyan #
-                 1, Robinson Joel, M~#2, Manikandan #3, Guru #4, and Raman #5.
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./makalah.bbl:9: You can't use `macro parameter character #' in horizontal mode.
-l.9 Karthigeyan #1, Robinson Joel, M~#
-                                      2, Manikandan #3, Guru #4, and Raman #5.
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./makalah.bbl:9: You can't use `macro parameter character #' in horizontal mode.
-l.9 ...geyan #1, Robinson Joel, M~#2, Manikandan #
-                                                  3, Guru #4, and Raman #5.
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./makalah.bbl:9: You can't use `macro parameter character #' in horizontal mode.
-l.9 ... Robinson Joel, M~#2, Manikandan #3, Guru #
-                                                  4, and Raman #5.
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./makalah.bbl:9: You can't use `macro parameter character #' in horizontal mode.
-l.9 ..., M~#2, Manikandan #3, Guru #4, and Raman #
-                                                  5.
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-[4 <./tor-connect.png (PNG copy)>]) [5] (./makalah.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package rerunfilecheck Info: File `makalah.out' has not changed.
-(rerunfilecheck)             Checksum: 8AF1BE32831E0254659C3A35903706B4;269.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./20051204034_M Rizqi R_Tugas 1.aux)
+Package rerunfilecheck Info: File `"20051204034_M Rizqi R_Tugas 1".out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12429 strings out of 478353
- 191005 string characters out of 5854635
- 779360 words of memory out of 5000000
- 30360 multiletter control sequences out of 15000+600000
- 409941 words of font info for 50 fonts, out of 8000000 for 9000
+ 10380 strings out of 478353
+ 164508 string characters out of 5854635
+ 575239 words of memory out of 5000000
+ 28368 multiletter control sequences out of 15000+600000
+ 408358 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,77p,320b,1153s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on makalah.pdf (5 pages, 463583 bytes).
+ 68i,6n,77p,320b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on "20051204034_M Rizqi R_Tugas 1.pdf" (1 page, 51245 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 39 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

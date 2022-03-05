@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[#1 et~al.(2018)#1, Joel, #2, #3, #4, and #5]{a1_2018_a}
+Karthigeyan #1, Robinson Joel, M~#2, Manikandan #3, Guru #4, and Raman #5.
+\newblock A comprehensive behavior analysis of tor versus i2p, 2018.
+
+\bibitem[Dahal(2017)]{dahal_2017_study}
+Saurav Dahal.
+\newblock Study on existing attacks to reveal bittorrent user's ip address in
+  tor network channel characterization in millimeter wave frequencies view
+  project tor network view project, 2017.
+
+\bibitem[Dingledine(2018)]{dingledine_2018_tor}
+Roger Dingledine.
+\newblock Tor: The second-generation onion router, 07 2018.
+
+\bibitem[Dingledine and Murdoch(2009)]{dingledine_2009_performance}
+Roger Dingledine and Steven Murdoch.
+\newblock Performance improvements on tor or, why tor is slow and what we're
+  going to do about it, 2009.
+
+\bibitem[Dwiputra~Kurniadi(2015)]{dwiputrakurniadi_2015_the}
+David Dwiputra~Kurniadi.
+\newblock The difference between using proxy server and vpn.
+\newblock \emph{The Difference Between Using Proxy Server and VPN}, 2:\penalty0
+  19--22, 2015.
+
+\bibitem[Haraty and Zantout(2014)]{haraty_2014_the}
+Ramzi Haraty and Bassam Zantout.
+\newblock The tor data communication system: A survey damage assessment and
+  recovery from malicious attacks for defensive information warfare view
+  project high-performance and accurate mathematical solvers in hardware view
+  project the tor data communication system.
+\newblock \emph{Article in Journal of Communications and Networks}, 2014.
+\newblock \doi{10.1109/JCN.2014.000071}.
+
+\bibitem[Ogundijo and Abdalla(2021)]{ogundijo_2021_zerotrust}
+Aduragbemi Ogundijo and Atiff Abdalla.
+\newblock Zero-trust vs. software defined perimeter vs. vpn (networks) the
+  opinion of intellectuals: questions and answers view project.
+\newblock \emph{Zero-Trust vs. Software Defined Perimeter vs. VPN (NETWORKS)},
+  10 2021.
+\newblock \doi{10.13140/RG.2.2.19996.62086}.
+
+\bibitem[Ruiz-Martínez and Trujillo(2018)]{ruizmartnez_2018_tor}
+Antonio Ruiz-Martínez and Diana Trujillo.
+\newblock Tor hidden services: a systematic literature review electronic and
+  mobile payment view project iot security view project tor hidden services: a
+  systematic literature review, 08 2018.
+
+\bibitem[Tamma et~al.(2020)Tamma, Madhura, Franklin, and
+  Agrawal]{tamma_2020_final}
+Bheemarjuna Tamma, A~Madhura, Antony Franklin, and Tulika Agrawal.
+\newblock \emph{Final Report Research Engagemenet On IPv6 for IoT}.
+\newblock NASSCOM CENTER OF EXCELLENCE FOR INTERNET OF THINGS, 01 2020.
+
+\bibitem[Van~Rijsbergen and Valk(2020)]{vanrijsbergen_2020_tor}
+Nicky Van~Rijsbergen and Kevin Valk.
+\newblock Tor vs the nsa, 09 2020.
+
+\end{thebibliography}
