@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-19T14:34:21.851Z" agent="5.0 (Windows)" etag="2s-gPw2Qyh5iJQISO3Tm" version="15.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-19T14:35:14.465Z" agent="5.0 (Windows)" etag="UTUkdzsKvvdYhQHotaMu" version="15.4.1" type="github" pages="3">
   <diagram id="x2OnH4yaNspLiFPI2viS" name="Use Case">
     <mxGraphModel dx="1071" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7gFN1g0bOJP9M0mqMx-P" name="Activity Login">
-    <mxGraphModel dx="758" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="910" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="yvqhJPSzyBjamLUrn4Xq-0" />
         <mxCell id="yvqhJPSzyBjamLUrn4Xq-1" parent="yvqhJPSzyBjamLUrn4Xq-0" />
@@ -168,6 +168,14 @@
         <mxCell id="yvqhJPSzyBjamLUrn4Xq-31" value="[invalid]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yvqhJPSzyBjamLUrn4Xq-1">
           <mxGeometry x="414" y="470" width="60" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7RAN4s2gW3F6oVOVUPJ_" name="Activity Case Model">
+    <mxGraphModel dx="910" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="sXIdPL2NeAkGaXS9qX1d-0" />
+        <mxCell id="sXIdPL2NeAkGaXS9qX1d-1" parent="sXIdPL2NeAkGaXS9qX1d-0" />
       </root>
     </mxGraphModel>
   </diagram>
