@@ -15,6 +15,6 @@ def negative(img: np.ndarray):
 
 # main
 
-img = openImg("image/kson.jpg")
+img = openImg("images/kson.jpg")
 img = negative(img)
 showImg(img)
