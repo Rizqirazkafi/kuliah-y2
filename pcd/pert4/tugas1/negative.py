@@ -14,7 +14,16 @@ def negative(img: np.ndarray):
     return 255 - img
 
 # main
-
-img = openImg("images/kson.jpg")
-img = negative(img)
-showImg(img)
+if __name__ == "__main__":
+    img = openImg("images/kson.jpg")
+    # negative 
+    negativeImage = negative(img)
+    cv2.imshow("negative", negativeImage)
+    # power low transformation
+    powerLogTransformImg = np.power(negativeImage, 0.5)
+    cv2.imshow("power", powerLogTransformImg)
+    # piecewise Linear Transform
+    piecewiseLinearTransformImage = np.piecewise(img)
+    cv2.imshow("piecewise", piecewiseLinearTransformImage)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
