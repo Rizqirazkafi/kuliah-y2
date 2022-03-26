@@ -9,10 +9,10 @@ cv2.waitKey(3000)
 cv2.destroyAllWindows()
 
 # log transformation the image and show it for 3 second
-img = cv2.log(img + 1)
-cv2.imshow('image', img)
-cv2.waitKey(3000)
-cv2.destroyAllWindows()
+# img = cv2.log(img + 1)
+# cv2.imshow('image', img)
+# cv2.waitKey(3000)
+# cv2.destroyAllWindows()
 
 # power-law transformation the image and show it for 3 second
 img = cv2.pow(img, 0.5)
