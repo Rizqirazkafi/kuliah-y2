@@ -615,6 +615,11 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./images//uml-Use Case.drawio.png
+INPUT ./images//uml-Use Case.drawio.png
+INPUT images//uml-Use Case.drawio.png
+INPUT ./images//uml-Use Case.drawio.png
+INPUT ./images//uml-Use Case.drawio.png
 INPUT kelompok2_tugas5.aux
 INPUT ./kelompok2_tugas5.out
 INPUT ./kelompok2_tugas5.out
