@@ -18,6 +18,39 @@ INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/share/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -470,17 +503,6 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./kelompok2_tugas5.aux
 INPUT kelompok2_tugas5.aux
 INPUT kelompok2_tugas5.aux
@@ -620,6 +642,9 @@ INPUT ./images//uml-Use Case.drawio.png
 INPUT images//uml-Use Case.drawio.png
 INPUT ./images//uml-Use Case.drawio.png
 INPUT ./images//uml-Use Case.drawio.png
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT kelompok2_tugas5.aux
 INPUT ./kelompok2_tugas5.out
 INPUT ./kelompok2_tugas5.out

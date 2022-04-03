@@ -2,6 +2,7 @@
 %\usepackage{simplemargins}
 
 %\usepackage[square]{natbib}
+\usepackage{tabularray}
 \usepackage{hyperref}
 \usepackage{array}
 \usepackage{amsmath}
@@ -221,5 +222,77 @@ $^3$) Third affiliation\\
     \end{center}
 \section*{4 Skenario}
     \subsection*{4.1 Use Case Login}
+    \begin{enumerate}
+        \item (User) Membuka aplikasi
+        \item (User) Memasukkan Username dan Password
+        \item (System) Konfirmasi kecocokan data Username dan Password yang telah diberikan pengguna.
+        \item (System) Bila cocok, akan langsung diarahkan ke menu utama.
+        \item (System) Bila tidak cocok, maka keluar peringatan bahwa Username atau Password salah.
+        \item (System) Pengguna dipersilahkan memasukkan Username dan Password yang benar
+        \item (System) Bila masih salah sebanyak tiga kali, maka program akan keluar dengan sendirinya.
+    \end{enumerate}
+    \subsection*{4.2 Use Case Pengelolaan Akun Dashboard}
+    \noindent Sistem menampilkan menu untuk kalkulasi yang dibutuhkan pengguna. 
+    Juga terdapat fitur keluar dari program bila pengguna menginginkan.
+    \subsection*{4.3 Use Case Pemodelan Kasus}
+    \begin{enumerate}
+        \item (User) Memilih permodelan kasus yang diinginkan
+        \item (User) Memasukkan nilai yang dibutuhkan oleh kalkulasi
+        \item (System) Melakukan kalkulasi
+        \item (System) Memasukkan data kedalam \textit{database}
+        \item (System) Menampilkan hasil kalkulasi
+    \end{enumerate}
+    \subsection*{4.4 Use Case Riwayat}
+    \begin{enumerate}
+        \item (User) Memilih menu Riwayat pada dashboard
+        \item (System) Menampilkan riwayat kalkulasi
+    \end{enumerate}
+\section*{5 Rencana Antar Muka System}
+\noindent Untuk antar muka akan berupa CLI, yang berarti semua input dan
+output berupa text based.
+\section*{6 Kontrak Kerja}
+    \subsection*{6.1 Biaya Software}
 
+    \subsection*{6.2 Kontrak dan Perjanjian}
+    \noindent Yang bertanda tangan di bawah ini, pihak pertama:\\
+    \noindent
+    Nama 			: Budi Hartanto \\
+    No. KTP 		: 2012240050012 \\
+    Perusahaan 		: Universitas Negeri Surabaya \\
+    No Perusahaan   : 20541595 \\
+    Jabatan 		: Kepala Fakultas \\
+
+    \noindent Selanjutnya pihak kedua,\\
+    Nama 			: Ahmad Zainudin\\
+    No. KTP 		: 2123004120022 \\
+    Perusahaan 		: BSH  \\
+    No Perusahaan 	: 301341 \\
+    Jabatan 		: Direktur \\
+
+    \noindent Melalui dokumen ini, pihak pertama dan pihak kedua bersepakat dengan ketentuan-ketentuan sebagai berikut.\\
+    \begin{enumerate}
+        \item Pihak pertama, sebagai pimpinan fakultas Universitas Negeri Surabaya (UNESA) adalah pihak developer software dari pihak kedua.
+        \item Kebutuhan software yang diminta oleh pihak kedua telah dianalisis secara rinci oleh pihak pertama dan dituliskan dalam dokumen SRS ini.
+        \item Semua kebutuhan software yang dirincikan dalam dokumen SRS ini telah disepakati oleh pihak kedua.
+        \item Penyelesaian software dilaksanakan dalam waktu 6 bulan dengan biaya yang tertulis pada point 1 bab Kontrak Kerja dokumen ini.
+        \item Apabila terdapat kebutuhan tambahan atau perubahan setelah ditandatangani dokumen ini, maka akan ditambahkan waktu dan biaya dengan kesepakatan yang akan dilakukan di kemudian hari.
+        \item Dokumen ini ditandatangani oleh kedua pihak dalam keadaan sadar dan tanpa paksaan dari pihak manapun.
+    \end{enumerate}
+    \begin{center}
+        Surabaya, 01 April 2022 \\
+        Gedung A10 Universitas Negeri Surabaya\\
+        Pukul 09.30 WIB\\
+    \end{center}
+    \begin{tblr}{Q[c,0.5\textwidth]Q[c,0.5\textwidth]}
+            Pihak Pertama
+        &
+            Pihak Kedua \\
+        \vspace*{2cm} & \\
+        Budi Hartanto & Ahmad Zainudin \\
+    \end{tblr}
+        
+
+
+
+\section*{}
 \end{document}

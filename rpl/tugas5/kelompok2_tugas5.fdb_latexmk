@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1649005778 "/home/rizqirazkafi/github/kuliah-y2/rpl/tugas5/kelompok2_tugas5.tex" "kelompok2_tugas5.pdf" "kelompok2_tugas5" 1649005779
-  "/home/rizqirazkafi/github/kuliah-y2/rpl/tugas5/kelompok2_tugas5.tex" 1649005778 8083 9f2a9efead68106666822de0b9d0292e ""
+["pdflatex"] 1649007799 "/home/rizqirazkafi/github/kuliah-y2/rpl/tugas5/kelompok2_tugas5.tex" "kelompok2_tugas5.pdf" "kelompok2_tugas5" 1649007800
+  "/home/rizqirazkafi/github/kuliah-y2/rpl/tugas5/kelompok2_tugas5.tex" 1649007799 11586 7075b2c62eff3a4e3ec2395b5d210cc9 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1647844622 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1647844622 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1647844622 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -18,6 +18,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1647844622 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1647844622 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm" 1647844622 1524 d89e2d087a9828407a196f428428ef4a ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1647844622 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1647844622 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1647844622 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1647844622 1292 21c1c5bfeaebccffdb478fd231a0997d ""
@@ -84,10 +85,12 @@
   "/usr/share/texmf-dist/tex/latex/hyperref/puenc.def" 1647844622 117004 ed1c2cc82bb9836e9d59549dd8c33098 ""
   "/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1647844622 22521 d2fceb764a442a2001d257ef11db7618 ""
   "/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1647844622 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
+  "/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty" 1647844622 6107 e082261f9677386795d8bf6b6254fa9d ""
   "/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1647844622 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1647844622 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "/usr/share/texmf-dist/tex/latex/refcount/refcount.sty" 1647844622 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1647844622 9715 b051d5b493d9fe5f4bc251462d039e5f ""
+  "/usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty" 1647807149 240697 c53f3fbe2a7b633ae4436f222dc46fc5 ""
   "/usr/share/texmf-dist/tex/latex/tools/array.sty" 1647844622 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty" 1647844622 1618 786b14c5a3e144c3a51452d08232d18b ""
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1647844622 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
@@ -95,9 +98,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1648527906 4408072 42ceaa83bae76aebad711d3f3dd7f55f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1648527898 2924500 6a767f76c05653e9608f7a8e5b91c1d8 ""
   "images//uml-Use Case.drawio.png" 1649004801 29765 9f0a90a433a0af1f821db38e3d407c7e ""
-  "kelompok2_tugas5.aux" 1649005779 686 1021e496efe4cd3ab536fd12e6d22f30 "pdflatex"
+  "kelompok2_tugas5.aux" 1649007800 686 3679e47b2b137aa430e4f1f8398129a8 "pdflatex"
   "kelompok2_tugas5.out" 0 -1 0 "pdflatex"
-  "kelompok2_tugas5.tex" 1649005778 8083 9f2a9efead68106666822de0b9d0292e ""
+  "kelompok2_tugas5.tex" 1649007799 11586 7075b2c62eff3a4e3ec2395b5d210cc9 ""
   (generated)
   "kelompok2_tugas5.aux"
   "kelompok2_tugas5.log"
