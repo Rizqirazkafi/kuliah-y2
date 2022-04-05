@@ -637,11 +637,11 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./images//uml-Use Case.drawio.png
-INPUT ./images//uml-Use Case.drawio.png
-INPUT images//uml-Use Case.drawio.png
-INPUT ./images//uml-Use Case.drawio.png
-INPUT ./images//uml-Use Case.drawio.png
+INPUT ./images//Scheme.png
+INPUT ./images//Scheme.png
+INPUT images//Scheme.png
+INPUT ./images//Scheme.png
+INPUT ./images//Scheme.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
@@ -650,9 +650,11 @@ INPUT ./kelompok2_tugas5.out
 INPUT ./kelompok2_tugas5.out
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb

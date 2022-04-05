@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.3.29)  4 APR 2022 00:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.3.29)  5 APR 2022 13:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -444,60 +444,95 @@ Overfull \hbox (7.94434pt too wide) in paragraph at lines 92--92
  []
 
 
-Overfull \hbox (17.49971pt too wide) in paragraph at lines 90--123
+Overfull \hbox (17.49971pt too wide) in paragraph at lines 90--120
 [][] 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (7.94434pt too wide) in paragraph at lines 127--127
+Overfull \hbox (7.94434pt too wide) in paragraph at lines 124--124
 []|\OT1/cmr/bx/n/10 No.| 
  []
 
 
-Overfull \hbox (17.49971pt too wide) in paragraph at lines 125--144
+Overfull \hbox (17.49971pt too wide) in paragraph at lines 122--141
 [][] 
  []
 
 
-Overfull \hbox (4.74991pt too wide) in paragraph at lines 151--151
+Overfull \hbox (4.74991pt too wide) in paragraph at lines 148--148
 []|\OT1/cmr/bx/n/10 No| 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174     \end{enumerate}
+l.175     \end{enumerate}
                           [2]
-<images//uml-Use Case.drawio.png, id=43, 437.635pt x 407.5225pt>
-File: images//uml-Use Case.drawio.png Graphic file (type png)
-<use images//uml-Use Case.drawio.png>
-Package pdftex.def Info: images//uml-Use Case.drawio.png  used on input line 221.
-(pdftex.def)             Requested size: 225.48764pt x 209.97281pt.
+<images//Scheme.png, id=44, 699.61375pt x 433.62pt>
+File: images//Scheme.png Graphic file (type png)
+<use images//Scheme.png>
+Package pdftex.def Info: images//Scheme.png  used on input line 216.
+(pdftex.def)             Requested size: 225.48764pt x 139.75371pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.222     \end{center}
-                       [3]pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+l.217     \end{center}
+                       [3]
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+[]|\OT1/cmr/m/n/10 Pengguna da-pat mengisi
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 229--233
+[]|\OT1/cmr/m/n/10 Fungsi kendala meru-pakan su-atu fungsi yang
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 229--233
+\OT1/cmr/m/n/10 masala-han yang berkai-tan den-gan pe-man-faatan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+\OT1/cmr/m/n/10 input-input di-atas se-cara
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 235--237
+\OT1/cmr/m/n/10 lengkap, maka akan muncul
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 253--254
+[]|\OT1/cmr/m/n/10 Hasil kalku-lasi akan keluar
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.253 \section
-              *{6 Kontrak Kerja} [4 <./images//uml-Use Case.drawio.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 257--264
+l.321         \item (
+                     User) Memasukkan nilai yang dibutuhkan oleh kalkulasi [4 <./images//Scheme.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 340--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--271
+Underfull \hbox (badness 10000) in paragraph at lines 348--354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.362         \item D
+                     okumen ini ditandatangani oleh kedua pihak dalam keadaa... [5]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -506,35 +541,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--273
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
+
 Package tabularray Warning: Table width is too small, need 24.0pt more!
 
 > Step: build the whole table.
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 292--293
+Overfull \hbox (24.0pt too wide) in paragraph at lines 375--376
 [] 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.298 \end{document}
-                     [5] (./kelompok2_tugas5.aux)
+l.381 \end{document}
+                     [6] (./kelompok2_tugas5.aux)
 Package rerunfilecheck Info: File `kelompok2_tugas5.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11879 strings out of 478276
- 202108 string characters out of 5853013
+ 11872 strings out of 478276
+ 201957 string characters out of 5853013
  501282 words of memory out of 5000000
  29872 multiletter control sequences out of 15000+600000
  479714 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,80p,288b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on kelompok2_tugas5.pdf (5 pages, 144888 bytes).
+ 60i,10n,80p,288b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on kelompok2_tugas5.pdf (6 pages, 169666 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 72 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

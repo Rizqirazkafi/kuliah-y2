@@ -100,24 +100,21 @@ $^3$) Third affiliation\\
         agar pengguna bisa menggunakan sebuah PC/Laptop/ perangkat lain
         yang serupa fungsinya dengan komputer.\\
         \hline
-        4 & Admin & Jenis pengguna yang memiliki akses penuh terhadap
-        semua data yang tersimpan.\\
-        \hline
-        5 & User & Jenis pengguna yang memiliki akses terbatas terhadap
+        4 & User & Jenis pengguna yang memiliki akses terbatas terhadap
         data dan kelakuan aplikasi.\\
         \hline
-        6 & Database & Tempat dimana semua data tersimpan dan dapat dikelola
+        5 & Database & Tempat dimana semua data tersimpan dan dapat dikelola
         oleh program.\\
         \hline
-        7 & Output & Merupakan hasil keluaran dari suatu perintah saat program
+        6 & Output & Merupakan hasil keluaran dari suatu perintah saat program
         selesai atau sedang dijalankan\\
         \hline
-        8 & Input & Merupakan masukan yang diberikan oleh pengguna dengan tujuan 
+        7 & Input & Merupakan masukan yang diberikan oleh pengguna dengan tujuan 
         agar program dapat memproses masukan tersebut.\\
         \hline
-        9 & Command Line Interface & Adalah antar muka berbasis teks tanpa gambar.\\
+        8 & Command Line Interface & Adalah antar muka berbasis teks tanpa gambar.\\
         \hline
-        10 & Python & Bahasa pemrograman yang digunakan pada perangkat lunak \\
+        9 & Python & Bahasa pemrograman yang digunakan pada perangkat lunak \\
         \hline
     \end{tabular}
 
@@ -175,12 +172,10 @@ $^3$) Third affiliation\\
     \subsection*{2.2 Jenis Pengguna}
     \begin{enumerate}
         \item User 
-        \item Admin
     \end{enumerate}
     \subsection*{2.3 Hak Akses Pengguna}
     \begin{enumerate}
-        \item User : Bisa mengoperasikan \textit{Linear Programming}.
-        \item Admin : Bisa melakukan segala bentuk manipulasi program, terutama manipulasi data dan jenis operasi.
+        \item User : Bisa mengoperasikan \textit{Lipcas}.
     \end{enumerate}
     \subsection*{2.4 Ketergantungan Software}
     \noindent Program ini dibuat seminimal mungkin sehingga tidak membutuhkan
@@ -218,28 +213,115 @@ $^3$) Third affiliation\\
     \end{enumerate}
     \subsection*{3.3 Diagram Use Case}
     \begin{center}
-    \includegraphics[width=0.5\textwidth]{uml-Use Case.drawio.png}
+    \includegraphics[width=0.5\textwidth]{Scheme.png}
     \end{center}
+    \subsection*{3.4 Functional Requirement}
+    \begin{tabular}{ | m{3em}| m{0.3\textwidth} | m{0.5\textwidth} | }
+        \hline
+        \textbf{ID} & \textbf{Kebutuhan Fungsional} & \textbf{Penjelasan}\\
+        \hline
+        FK-1 & Pengguna dapat mengisi fungsi objektif yang akan
+        dicari nilai minimum atau maksimum & Pengguna harus mengisi
+        nilai minimum atau minimum yang ingin dicari pada program
+        linear. Biasa ditulis dalam bentuk matematis, $Z = ax_{1}+bx_{2}$\\
+        \hline
+        FK-2 & Pengguna dapat mengisi fungsi-fungsi kendala &
+        Fungsi kendala merupakan suatu fungsi yang menggambarkan
+        tujuan atau sasaran dalam permasalahan yang berkaitan
+        dengan pemanfaatan sumberdaya secara optimal untuk 
+        mencapai nilai maksimum dengan sumberdaya minimum\\
+        \hline
+        FK-3 & 
+        Jika pengguna tidak mengisi input-input diatas secara
+        lengkap, maka akan muncul pesan error.
+         &
+         Proses perhitungan tidak akan berjalan ketika pengguna
+         tidak mengisi data secara lengkap.
+         \\
+        \hline
+        FK-4
+        &
+        Setelah input terpenuhi, kalkulasi secara otomatis
+        dilakukan.
+        &
+        Ketika pengguna telah berada di akhir input. Maka dengan
+        menekan tombol "Return", proses kalkulasi akan dimulai.
+        \\
+        \hline
+        FK-5 
+        &
+        Hasil kalkulasi akan keluar dalam bentuk text.
+        &
+        Hasil kalkulasi akan ditampilkan dalam bentuk
+        \textit{text-based} pada terminal.
+        \\
+        \hline
+        FK-6
+        &
+        Grafis tersimpan dalam storage
+        &
+        Bila kalkulasi menghasilkan grafis, maka grafis akan
+        disimpan dalam penyimpanan internal perangkat dalam format
+        \textit{.jpeg/.jpg}. Kemudian path dari gambar tersebut
+        akan ditampilkan melalui terminal.
+        \\
+        \hline
+
+    \end{tabular}
+    \subsection*{3.5 Non-Functional Requirements}
+    \begin{tabular}{ | m{3em}| m{0.2\textwidth} | m{0.6\textwidth} | }
+        \hline
+        \textbf{ID} & \textbf{Parameter} & \textbf{Penjelasan}\\
+        \hline
+        FN-1
+        &
+        Portability
+        &
+        Software harus bisa berjalan di semua platform yang 
+        memiliki Python Intrepeter beserta librarynya.
+        \\
+        \hline
+        FN-2
+        &
+        Response time
+        &
+        Software harus bisa digunakan secara instan setelah
+        mengeksekusi file \textit{executable}.
+        \\
+        \hline
+        FN-3
+        &
+        Simple 
+        &
+        Antar muka harus mudah dimengerti oleh pengguna
+        \\
+        \hline
+        FN-4
+        &
+        Storage
+        &
+        Ukuran program tidak boleh melebihi 200MiB
+        \\
+        \hline
+        FN-5
+        &
+        Reliability 
+        &
+        Hasil kalukasi harus seakurat mungkin.
+        \\
+        \hline
+    \end{tabular}
 \section*{4 Skenario}
-    \subsection*{4.1 Use Case Login}
-    \begin{enumerate}
-        \item (User) Membuka aplikasi
-        \item (User) Memasukkan Username dan Password
-        \item (System) Konfirmasi kecocokan data Username dan Password yang telah diberikan pengguna.
-        \item (System) Bila cocok, akan langsung diarahkan ke menu utama.
-        \item (System) Bila tidak cocok, maka keluar peringatan bahwa Username atau Password salah.
-        \item (System) Pengguna dipersilahkan memasukkan Username dan Password yang benar
-        \item (System) Bila masih salah sebanyak tiga kali, maka program akan keluar dengan sendirinya.
-    \end{enumerate}
-    \subsection*{4.2 Use Case Pengelolaan Akun Dashboard}
+    \subsection*{4.1 Use Case Pengelolaan Akun Dashboard}
     \noindent Sistem menampilkan menu untuk kalkulasi yang dibutuhkan pengguna. 
     Juga terdapat fitur keluar dari program bila pengguna menginginkan.
-    \subsection*{4.3 Use Case Pemodelan Kasus}
+    \subsection*{4.2 Use Case Pemodelan Kasus}
     \begin{enumerate}
         \item (User) Memilih permodelan kasus yang diinginkan
         \item (User) Memasukkan nilai yang dibutuhkan oleh kalkulasi
         \item (System) Melakukan kalkulasi
         \item (System) Memasukkan data kedalam \textit{database}
+        \item (System) Memasukkan grafis dalam format \textit{.jpeg} kedalam local storage
         \item (System) Menampilkan hasil kalkulasi
     \end{enumerate}
     \subsection*{4.4 Use Case Riwayat}
@@ -252,6 +334,7 @@ $^3$) Third affiliation\\
 output berupa text based.
 \section*{6 Kontrak Kerja}
     \subsection*{6.1 Biaya Software}
+    Biaya software akan dicantumkan pada SRS versi 1.0.0
 
     \subsection*{6.2 Kontrak dan Perjanjian}
     \noindent Yang bertanda tangan di bawah ini, pihak pertama:\\
