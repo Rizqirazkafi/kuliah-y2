@@ -68,13 +68,14 @@ while finalState == False:
     mp = int(input("(1/2) : "))
     if mp == 1:
         kembali = 0
-        while kembali < tot:
+        cash = 0
+        while cash < tot:
             cash = int(input("Masukkan jumlah uang: Rp."))
             kembali = cash - tot 
-            if kembali < tot:
+            if cash < tot:
                 print("Mohon maaf, jumlah uang anda tidak mencukupi")
+            else : finalState = True
         eMoney = False
-        finalState = True
     elif mp == 2:
         cash = input("Masukkan nomor e-money: ")
         eMoney = True
