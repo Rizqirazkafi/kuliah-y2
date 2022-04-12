@@ -21,7 +21,7 @@ while pil is False:
         price = 9000
         pil = True
     elif beras == 4:
-        bname == "IR 42"
+        bname = "IR 42"
         price = 8600
         pil = True
     elif beras == 5:
