@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("D:/tes/bp.jpg")
+img = cv2.imread("images/bp.jpg")
 
 #sharpen
 kernel = np.array([[-1, -1, -1],
