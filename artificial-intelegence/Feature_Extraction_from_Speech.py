@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.io import wavfile
 from python_speech_features import mfcc, logfbank
 
-frequency_sampling, audio_signal = wavfile.read("hello.wav")
+frequency_sampling, audio_signal = wavfile.read("sample.wav")
 
 audio_signal = audio_signal[:15000]
 
