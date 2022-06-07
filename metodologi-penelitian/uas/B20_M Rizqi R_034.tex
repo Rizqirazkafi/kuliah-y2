@@ -1,0 +1,143 @@
+\documentclass{article}
+% Package Used
+\usepackage[a4paper,top=30mm,left=40mm,bottom=30mm,right=30mm]{geometry}
+\usepackage[immediate]{silence}
+\usepackage{microtype}
+% Title
+\title{\textbf{Smoke Detector Pada Lab Kimia}}
+\author{M. Rizqi R -  
+        20051204034 -
+        TI 2020 B \\
+        \textbf{Universitas Negeri Surabaya}
+}
+\date{\today}
+
+\begin{document}
+    \maketitle
+
+    \section{Pendahuluan}
+    \subsection{Latar Belakang}
+    Terjadinya kebocoran gas pada lab kimia sangat memungkinkan terjadi karena
+    kecelakaan yang tak terduga. Hal ini dapat berakibat fatal apabila kecelakaan
+    terjadi ketika lab tidak dalam status pengawasan atau kosong. Dibutuhkannya 
+    sistem monitor yang mampu mendeteksi adanya kebocoran gas berbahaya atau asap 
+    api untuk memberitahu pihak yang berwenang ketika terjadi kecelakaan tersebut.
+    Dengan sistem monitor menggunakan Arduino Uno akan mempermudah proses tersebut
+    dengan memberi pesan notifikasi kepada pihak yang berwenang terhadap lab
+    maupun pengawas yang dekat dengan ruang lab.
+
+    Metode ini dapat dicapai berkat adanya IoT (\textit{Internet of Things}) 
+    yang membuat kita mampu mengendalikan perangkat keras pada jarak jauh
+    menggunakan koneksi internet.
+    \subsection{Rumusan Masalah}
+    Dari latar belakang dapat dirumuskan masalah diantaranya:
+    \begin{enumerate}
+        \item Penjelasan tentang \textit{smoke detector}.
+        \item Penjelasan tentang \textit{Internet of Things}.
+        \item Mengapa \textit{smoke detector} dibutuhkan dalam lab?
+        \item Mengetahui penggunaan \textit{smoke detector} pada lab.
+    \end{enumerate} 
+    \subsection{Batasan Masalah}
+    Berdasarkan latar belakang penelitian dan rumusan masalah, maka dalam hal ini
+    permasalahan yang dikaji perlu dibatasi. Pembatasan masalah ini bertujuan untuk
+    memfokuskan perhatian pada penelitian dengan memperoleh kesimpulan yang benar
+    dan mendalam pada aspek yang diteliti. Adapun pembatasan masalah yang dikaji
+    dalam penelitian ini adalah: Masalah yang diteliti terbatas pada bagaimana 
+    teknologi \textit{smoke detector} pada lab.
+
+    \subsection{Tujuan Penelitian}
+    \begin{enumerate}
+        \item Memahami cara kerja \textit{smoke detector.}
+        \item Mengetahui penggunaan \textit{smoke detector} pada lab.
+        \item Mengetahui manfaat \textit{smoke detector} pada lab.
+    \end{enumerate}
+    
+    \pagebreak
+
+    \section{Pembahasan}
+    \subsection{Penjelasan \textit{Internet of Things}}
+    Internet of Things (IoT) adalah istilah yang digunakan
+    untuk menggambarkan koneksi perangkat, mesin, dan
+    instrumen di internet. Teknologi IoT memungkinkan
+    pengguna berinteraksi dengan perangkat mereka dari
+    jarak jauh. Istilah "Internet of Things" pertama kali
+    diciptakan oleh Kevin Ashton pada tahun 1999.
+
+    Ada tiga jenis utama implementasi IoT:
+    \begin{enumerate}
+        \item Perangkat Tertanam: Ini adalah sensor-sensor
+            kecil yang dapat ditanamkan ke dalam objek atau
+            perangkat. Sensor-sensor ini memonitor hal-hal
+            seperti suhu, gerakan, tekanan dan getaran.
+            Misalnya, sensor dapat ditempatkan pada bagian
+            mesin untuk memantau seberapa besar tekanan
+            yang telah diterapkan padanya dari waktu ke
+            waktu.
+        \item Sensor Dalam/Luar Ruangan: Sensor ini
+            memantau hal-hal seperti suhu, tekanan dan
+            kelembaban di dalam dan di luar ruangan. Sensor
+            ini biasanya ditempatkan di dekat pintu atau
+            jendela sehingga dapat melacak perubahan pola
+            cuaca serta apakah jendela terbuka atau
+            tertutup.
+        \item Layanan Terkelola: Layanan terkelola adalah
+            sistem berbasis cloud yang memungkinkan
+            pengguna memantau perangkat mereka yang
+            terhubung dari jarak jauh dan menerima
+            peringatan ketika terjadi kesalahan pada
+            perangkat tersebut.
+    \end{enumerate} 
+    \subsection{Penjelasan NodeMCU ESP-8266}
+    ESP8266 adalah mikrokontroler yang sangat fungsional yang
+    dapat berjalan pada berbagai sumber input yang berbeda.
+    Mikrokontroler ini memiliki kemampuan Wi-Fi built-in dan
+    mampu berjalan sebagai server web, yang berarti dapat
+    mengontrol perangkat dari jarak jauh. ESP8266 juga mampu
+    mengendalikan perangkat lain, seperti LED, motor, dan
+    sensor.
+
+    \subsection{Sensor \textit{Smoke Detector}}
+ 
+
+    Detektor asap dan gas adalah alat yang mendeteksi adanya
+    asap dan/atau gas di lingkungan. Hal ini dapat dilakukan
+    dengan menggunakan beberapa metode yang berbeda, termasuk:
+    \begin{enumerate}
+        \item Ionisasi - Deteksi partikel terionisasi dalam medan
+             listrik. Metode ini memerlukan detektor dengan bahan
+             radioaktif (yaitu Americium 241) di dalamnya, yang
+             menghasilkan ion ketika terkena asap atau gas.
+
+        \item Photoelectric - Menggunakan cahaya untuk mendeteksi
+                partikel asap, yang menyerap cahaya pada panjang gelombang
+                yang berbeda tergantung pada ukuran partikel. Detektor
+                menyinari cahaya melalui filter yang hanya memungkinkan
+                panjang gelombang tertentu untuk melewatinya (mis: biru).
+                Jika ada partikel di udara yang menyerap panjang gelombang
+                tersebut, mereka akan tampak gelap terhadap latar belakang
+                terang cahaya yang disaring (misal: hitam).
+    \end{enumerate}
+    \section{Penutup}
+    \subsection{Kesimpulan}
+    Sebagai kesimpulan, penting untuk dicatat bahwa fungsi
+    deteksi asap IoT di laboratorium kimia tidak terbatas
+    hanya untuk memperingatkan orang-orang ketika kebakaran
+    telah terjadi. Teknologi ini juga dapat digunakan untuk
+    memonitor suhu dan tingkat kelembapan di laboratorium.
+    Dengan data ini, para peneliti dapat lebih memahami
+    bagaimana keadaan yang berbeda memengaruhi reaksi yang
+    terjadi di dalam laboratorium mereka. Informasi ini
+    dapat membantu para ahli kimia membuat keputusan yang
+    lebih baik tentang bahan apa yang harus mereka gunakan,
+    berapa banyak dari setiap bahan yang perlu mereka
+    gunakan, dan bagaimana mereka harus mengatur peralatan
+    mereka.
+
+    \begin{thebibliography}{3}
+        \bibitem[1]A. Abdullah, “DETECTION AND MONITORING SYSTEM OF SMOKE CONCENTRATION WITH SMOKE DETECTOR AND CAMERA TRACKER,” FISITEK, vol. 2, no. 1, p. 1, Feb. 2018, doi: 10.30821/fisitek.v2i1.1433.
+        \bibitem[2]M. R. Hidayat, C. Christiono, and B. S. Sapudin, “PERANCANGAN SISTEM KEAMANAN RUMAH BERBASIS IoT DENGAN NodeMCU ESP8266 MENGGUNAKAN SENSOR PIR HC-SR501 DAN SENSOR SMOKE DETECTOR,” kilat, vol. 7, no. 2, pp. 139–148, Nov. 2018, doi: 10.33322/kilat.v7i2.357.
+        \bibitem[3]M. S. Mohamad Adenan, A. N. Mas Erwan, and M. N. H. Muzaffar Alfian, “Smart Smoke Detector,” ijortas, vol. 3, no. 1, pp. 16–31, Mar. 2021, doi: 10.36079/lamintang.ijortas-0301.198.
+        
+    \end{thebibliography}
+
+\end{document}
